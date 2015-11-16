@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu Mono, monospace;
+}
+html, body {
+    height: 100%;
+}
+#wrapper:before {
+    content:'';
+    float: left;
+    height: 100%;
+}
+#wrapper {
+    height: 100%;
+}
+#nav {
+    height: 50px;
+    background: gray;
+}
+div {
+  border: 1px solid black;
+}
+div#dynamic_header {
+height: 50px;
+background: #f9f9f9;
+}
+div#lesson_header {
+height: 50px;
+background: #DBE2E7;
+position: sticky;
+}
+#content {
+    position: relative;
+    background: white;
+}
+#content:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.scroll {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.lessons {
+    height: 1000px;
+}
+#lesson_1 {
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 50%;
+}
+#lesson_2 {
+  background-color: #bdbdbd;
+  width: 100%;
+  height: 90%;
+}
+#lesson_3 {
+background-color: #a8a8a8;
+width: 100%;
+height: 90%;
+}
+#lesson_4 {
+background-color: #939393;
+width: 100%;
+height: 90%;
+}
+#lesson_5 {
+background-color: #7e7e7e;
+width: 100%;
+height: 90%;
+}
