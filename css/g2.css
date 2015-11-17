@@ -102,3 +102,11 @@ height: 90%;
 #correct, #sorry, #addHint{
   display: none;
 }
+
+/*********************/
+/*Module: Git Commit*/
+/*******************/
+
+#correctCommit, #sorryCommit, #commitHint{
+  display: none;
+}
