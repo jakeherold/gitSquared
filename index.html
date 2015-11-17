@@ -14,7 +14,7 @@ Conn
 -->
 
 <div id="wrapper">
-  <div>
+  <!-- <div> -->
 
     <div id="nav">FIXED SCROLL NAV BAR
       <a href="#lesson_1">Lesson 1</a>
@@ -34,28 +34,40 @@ Conn
 
           <div id="lesson_1">
 
-            <!--please use this to fill content for the lessons-->
-            <div class="mod_title">JAKES FANCY LESSON TITLE 1</div>
-            <div class="module">MODEL HERE</div>
-            <div class="module_content"><p>MODULE CONTENT HERE</p></div>
-            <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
-            <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
 
-            <!--please use this as an outline format for ux-->
-            <input class="lesson_input" id="lesson_1_input">lesson input</input>
+<!--please use this to fill content for the lessons-->
+            <div class="menu">Git clone</div>
+            <!-- <div class="module">MODEL HERE</div> -->
+            <div class="module_content"><p>Welcome to gitSquared! Git is an incredible tool for programers. It will help you collaborate with your fellow programmer types, and never lose a single line of code! However, it can be tedious and difficult to learn We're here to make it easier on you. The first step in doing this is cloning your repository.<br> First things first, use your terminal to navigate to the folder you'd like your repository folder to live in. Your second step is to go to your repository (repo) on Git Hub and copy the URL of the repository you want to use. Finally, go into your terminal and type <br><br> "git clone [your URL here]" <br><br>in your terminal. You should see a new folder with your README.md file in it. You now have a local repo on your computer! </p> </div>
+            <!-- <div class="module_vis_static">MODULE STATIC CONTENT HERE</div> -->
+            <!-- <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div> -->
 
-            <input class="lesson_button" id="lesson_1_button" type="submit" value="submit">lesson button</input>
+<!--please use this as an outline format for ux-->
+            <!-- <input class="lesson_input" id="lesson_1_input">lesson input</input> -->
+            <div id="modOnePicDiv"><img src="" id="moduleOnePicture"></div>
+            <p id="moduleOneOutput"> You behold your desktop. What do you do? </p>
+
+            <div id="moduleOneButtons">
+              <button class="lesson_button" id="lesson_1_button" onclick="openTerminal()">Open Terminal</button>
+              <button class="lesson_button" id="lesson_1_button" onclick="openGitHub()">Open GitHub</button>
+              <button class="lesson_button" id="lesson_1_button" onclick="copyURL()">Copy URL</button>
+              <button class="lesson_button" id="lesson_1_button" onclick="navigateTerminal()">Select Local Repo Location</button>
+              <button class="lesson_button" id="lesson_1_button" onclick="enterGitCloneCommand()">Enter "git clone" command</button>
+              <button class="lesson_button" id="lesson_1_button" onclick="reset()">Start Over</button>
+            </div>
 
           </div>
 
           <div id="lesson_2">
 
-            <!--please use this to fill content for the lessons-->
-            <div class="mod_title">JAKES FANCY LESSON TITLE 2</div>
-            <div class="module">MODEL HERE</div>
-            <div class="module_content"><p>MODULE CONTENT HERE</p></div>
-            <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
-            <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
+
+<!--please use this to fill content for the lessons-->
+            <div class="menu">Mod the Thing</div>
+            <!-- <div class="module">MODEL HERE</div> -->
+            <div class="module_content"><p>This step is where your modify your document. Our recomendation is to do a simple text file. In your terminal navigate into your repository folder. Type <br><br> "touch testFile.txt" <br><br> in your terminal. Then, try an "ls" command, to see your newly created document!<br><br> Before we carry on much farther, a few terms to help you understand whats going on with git. <br> We will refer to things as "local" or "remote". <strong> Local</strong> refers to documents that are on your computer. This includes anything you've not commited, or added (don't worry if you don't know what those are yet. We'll go into them more later!). Anything refered to as <strong>remote </strong>is on another computer. In this context, we'll be accessing GitHub's servers. If that sounds challenging, worry not! It can be daunting at first, but you'll be a wiz at it before you know it! <br> <br>So, now that we've updated the file and learned what local and remote are, What happens next? </p></div>
+            <!-- <div class="module_vis_static">MODULE STATIC CONTENT HERE</div> -->
+            <!-- <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div> -->
+
 
             <!--please use this as an outline format for ux-->
             <input class="lesson_input" id="lesson_2_input">lesson input</input>
@@ -130,5 +142,6 @@ Conn
   </div>
 </div>
 <script src="js/push.js"></script>
+<script src="js/clone.js"></script>
 </body>
 </html>
