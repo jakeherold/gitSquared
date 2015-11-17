@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/g2.css">
-<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
 </head>
 
 <!--
@@ -26,7 +26,7 @@ Conn
         <div class="lessons">
 
           <div id="lesson_1">
-            
+
 <!--please use this to fill content for the lessons-->
             <div class="menu">JAKES FANCY LESSON TITLE 1</div>
             <div class="module">MODEL HERE</div>
@@ -39,7 +39,51 @@ Conn
 
             <button class="lesson_button" id="lesson_1_button">lesson button</button>
 
+            <!--****************************-->
+            <!--Module 2 Git Add starts here-->
+            <!--****************************-->
+            <div class="module">Git Add: The Staging Area!</div>
+            <div class="module_content">
+              <p class="command"><em>git add [your file here]</em></p>
+              <p>Git has a Staging Area! That's right! This is the first step in the two-step
+              check-in process. In this area you can:</p>
+              <ul>
+                <li>Stage files for commit after making a certain amount of changes and you think that
+                you want to have this version tracked.</li>
+                <li>You can add many files or a single file at a time.</li>
+                <li>You can also undo local changes with: git checkout [your file here] </li>
+                <li>You can remove a file from the staging area with: git reset HEAD [your file here]
+                (and still keep the local changes in the file).</li>
+              </ul>
+            </div>
+
+            <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
+
+            <div class="module_vis_dynamic" id="gitAddOutput">
+              <img src="">
+              <img src="">
+              <img src="">
+            </div>
+
+            <div class="feedback">
+              <p id="intro">Assusming that you have made some changes to your TestFile.txt and you are happy
+               with them. Now we'll add the file to the "Staging area". Please type the correct command that you
+                would type in your terminal in the input field.</p>
+              <p id="correct">Correct!</p>
+              <p id="sorry">Sorry, that was not correct. Click on the hint button if you need a hint.</p>
+              <p id="addHint">Hint: git add [your file here]</p>
+            </div>
+
+            <input class="lesson_input" id="gitAddInput">lesson input</input>
+            <button class="lesson_button" id="enterCommand">Submit Command</button>
+
+            <button class="lesson_button" id="hintGitAdd">Hint</button>
+
           </div>
+
+
+
+
 
           <div id="lesson_2">
 
@@ -111,5 +155,8 @@ Conn
     </div>
   </div>
 </div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="add.js" type="text/javascript"></script>
 </body>
 </html>
