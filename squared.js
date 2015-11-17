@@ -3,12 +3,13 @@ var gitHubOpen = false;
 var urlCopied = false;
 var terminalRightPlace = false;
 var gitCloneCommand = false;
+moduleOnePicture.src = "images/desktop.png";
 
 var openTerminal = function (){
   if (terminalOpen === false){
     terminalOpen = true;
     document.getElementById("moduleOneOutput").innerHTML = "You open a terminal!";
-
+    moduleOnePicture.src = "images/openTerminal.png";
   } else {
     document.getElementById("moduleOneOutput").innerHTML = "You already have a terminal open!";
   }
@@ -17,6 +18,7 @@ var openTerminal = function (){
   if (gitHubOpen === false){
     gitHubOpen = true;
     document.getElementById("moduleOneOutput").innerHTML = "You open the internet!";
+    moduleOnePicture.src = "images/openGitHub.png";
   } else {
     document.getElementById("moduleOneOutput").innerHTML = "You've already opened the internet!";
   }
@@ -26,6 +28,7 @@ var openTerminal = function (){
   if ((gitHubOpen === true) && (urlCopied === false)){
     urlCopied = true;
     document.getElementById("moduleOneOutput").innerHTML = "You copy the URL";
+    moduleOnePicture.src = "images/copyURL.png";
   } else {
     document.getElementById("moduleOneOutput").innerHTML = "You've already copied the URL!";
   }
@@ -35,6 +38,7 @@ var navigateTerminal = function (){
   if ((terminalRightPlace === false) && (terminalOpen === true)){
     terminalRightPlace = true;
     document.getElementById("moduleOneOutput").innerHTML = "Nice! you moved to where you want the file!";
+    moduleOnePicture.src = "images/navigateTerminal.png";
   } else if (terminalOpen === false){
     document.getElementById("moduleOneOutput").innerHTML = "Try opening the terminal first!";
   }
@@ -46,6 +50,7 @@ var navigateTerminal = function (){
 var enterGitCloneCommand = function (){
   if ((terminalOpen === true) && (urlCopied === true) && (terminalRightPlace === true)){
      document.getElementById("moduleOneOutput").innerHTML = "Awesome! You got everything just right! You're now the pround owner of a local copy of your repository!";
+     moduleOnePicture.src = "images/typeGitClone.png";
   } else if ((terminalOpen === false) && (urlCopied === true) && (terminalRightPlace === true)){
      document.getElementById("moduleOneOutput").innerHTML = "Your terminal isn't open. Try doing that first.";
   } else if ((terminalOpen === true) && (urlCopied === true) && (terminalRightPlace === false)){
@@ -67,6 +72,7 @@ var reset = function () {
   terminalRightPlace = false;
   gitCloneCommand = false;
   document.getElementById("moduleOneOutput").innerHTML = "You behold your desktop. What do you do?";
+  moduleOnePicture.src = "images/desktop.png";
 }
 
 
