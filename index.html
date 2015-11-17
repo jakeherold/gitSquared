@@ -2,7 +2,8 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/g2.css">
-<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel='stylesheet' type='text/css'>
+  <link href="/Users/alexanderson/andalexrepos/gitSquared/assets/github_vector_icons/octicons.css" rel='stylesheet' type='text/css'>
 </head>
 
 <!--
@@ -15,7 +16,13 @@ Conn
 <div id="wrapper">
   <div>
 
-    <div id="nav">FIXED SCROLL NAV BAR</div>
+    <div id="nav">FIXED SCROLL NAV BAR
+      <a href="#lesson_1">Lesson 1</a>
+      <a href="#lesson_2">Lesson 2</a>
+      <a href="#lesson_3">Lesson 3</a>
+      <a href="#lesson_4">Lesson 4</a>
+      <a href="#lesson_5">Lesson 5</a>
+    </div>
 
     <div id="content">
 
@@ -26,83 +33,95 @@ Conn
         <div class="lessons">
 
           <div id="lesson_1">
-            
-<!--please use this to fill content for the lessons-->
-            <div class="menu">JAKES FANCY LESSON TITLE 1</div>
+
+            <!--please use this to fill content for the lessons-->
+            <div class="mod_title">JAKES FANCY LESSON TITLE 1</div>
             <div class="module">MODEL HERE</div>
             <div class="module_content"><p>MODULE CONTENT HERE</p></div>
             <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
             <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
 
-<!--please use this as an outline format for ux-->
+            <!--please use this as an outline format for ux-->
             <input class="lesson_input" id="lesson_1_input">lesson input</input>
 
-            <button class="lesson_button" id="lesson_1_button">lesson button</button>
+            <input class="lesson_button" id="lesson_1_button" type="submit" value="submit">lesson button</input>
 
           </div>
 
           <div id="lesson_2">
 
-<!--please use this to fill content for the lessons-->
-            <div class="menu">JAKES FANCY LESSON TITLE 2</div>
+            <!--please use this to fill content for the lessons-->
+            <div class="mod_title">JAKES FANCY LESSON TITLE 2</div>
             <div class="module">MODEL HERE</div>
             <div class="module_content"><p>MODULE CONTENT HERE</p></div>
             <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
             <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
 
-<!--please use this as an outline format for ux-->
+            <!--please use this as an outline format for ux-->
             <input class="lesson_input" id="lesson_2_input">lesson input</input>
 
-            <button class="lesson_button" id="lesson_2_button">lesson button</button>
+            <input class="lesson_button" id="lesson_2_button" type="submit" value="submit">lesson button</input>
 
           </div>
 
 
           <div id="lesson_3">
 
-<!--please use this to fill content for the lessons-->
-            <div class="menu">JAKES FANCY LESSON TITLE 3</div>
+            <!--please use this to fill content for the lessons-->
+            <div class="mod_title">JAKES FANCY LESSON TITLE 3</div>
             <div class="module">MODEL HERE</div>
             <div class="module_content"><p>MODULE CONTENT HERE</p></div>
             <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
             <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
 
-<!--please use this as an outline format for for ux-->
+            <!--please use this as an outline format for for ux-->
             <input class="lesson_input" id="lesson_3_input">lesson input</input>
 
-            <button class="lesson_button" id="lesson_3_button">lesson button</button>
+            <input class="lesson_button" id="lesson_3_button" type="submit" value="submit">lesson button</input>
 
           </div>
 
           <div id="lesson_4">
 
-<!--please use this to fill content for the lessons-->
-            <div class="menu">JAKES FANCY LESSON TITLE 4</div>
-            <div class="module">MODEL HERE</div>
-            <div class="module_content"><p>MODULE CONTENT HERE</p></div>
+            <!--ALEX WORKING ON push.js FOR THE PUSH MODULE SECTION-->
+            <!--please use this to fill content for the lessons-->
+            <div class="mod_title">Module #4: git push <span class="octicon octicon-repo-push"></span></div>
+            <div class="module">In this module, you will learn how to push files using git</div>
+            <div class="module_content">
+            <p>In the previous module, you have:<br>
+              Cloned and Modified your example file, <br>
+              Added those changes to your staged commits<br>
+              Commited your changes to your repository<br>
+              Now you will:
+              Push those changes to your github repository, so that your local repository <br>
+              <strong>and</strong> remote repository are identical. Lets try it below:
+            </p></div>
             <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
             <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
 
-<!--please use this outline format for ux-->
-            <input class="lesson_input" id="lesson_4_input">lesson input</input>
+            <!--please use this outline format for ux-->
+            <input class="lesson_input" id="lesson_4_input" type="text">Please type the correct git push command</input>
 
-            <button class="lesson_button" id="lesson_4_button">lesson button</button>
+            <button onclick="pushMod()" class="lesson_button" id="lesson_4_button">enter git command</button>
+            <button class="lesson_button" id="lesson_4_hint">hint?</button>
+
+            <p id="modOutput"></p>
 
           </div>
 
           <div id="lesson_5">
 
-<!--please use this to fill content for the lessons-->
-            <div class="menu">JAKES FANCY LESSON TITLE 5</div>
+            <!--please use this to fill content for the lessons-->
+            <div class="mod_title">JAKES FANCY LESSON TITLE 4</div>
             <div class="module">MODEL HERE</div>
             <div class="module_content"><p>MODULE CONTENT HERE</p></div>
             <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
             <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
 
-<!--please use this outline format for ux-->
-            <input class="lesson_input" id="lesson_5_input">lesson input</input>
+            <!--please use this outline format for ux-->
+            <input class="lesson_input" id="lesson_5_input">Please type the correct git push command</input>
 
-            <button class="lesson_button" id="lesson_5_button">lesson button</button>
+            <input class="lesson_button" id="lesson_5_button" type="submit" value="submit git command"></input>
 
           </div>
 
@@ -111,5 +130,6 @@ Conn
     </div>
   </div>
 </div>
+<script src="js/push.js"></script>
 </body>
 </html>
