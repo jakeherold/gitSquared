@@ -5,7 +5,7 @@ function gitAdd(){
   var $correct   = $("#correct");
   var $hint      = $("#addHint");
   if (isNaN($userInput)===true){
-    if ($userInput==="git add TestFile.txt"){
+    if ($userInput==="git add testFile.txt"){
       $sorry.css({"display": "none"});
       $hint.css({"display": "none"});
       $correct.css({"display": "block"});
