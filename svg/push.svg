@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<path id="repoPushSvg" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M92.033,61.713c0,2.422-2.209,4.385-4.933,4.385H67.366
+	c-2.725,0-4.934-1.963-4.934-4.385V50.75c0-2.422,2.209-4.385,4.934-4.385h19.734c2.724,0,4.933,1.963,4.933,4.385V61.713z"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="15.363" cy="35.017" r="6.167"/>
+<path stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M23.486,29.103l-14.041,4.68c0,0-1.56-4.68,3.121-6.24
+	c4.68-1.56,6.24,3.12,6.24,3.12"/>
+<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="12.486" cy="34.606" r="0.823"/>
+<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="18.24" cy="34.606" r="0.823"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="14.129" y1="41.183" x2="19.063" y2="41.183"/>
+<polyline points="14.129,51.05 14.129,60.916 11.663,60.916 11.663,51.05 "/>
+<polyline points="19.063,51.05 19.063,60.916 16.596,60.916 16.596,51.05 "/>
+<rect x="15.5" y="60.643" width="4.934" height="2.467"/>
+<rect x="9.196" y="60.643" width="4.934" height="2.467"/>
+<g>
+	<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="7.962" y1="44.061" x2="7.962" y2="50.228"/>
+	<rect x="7.277" y="44.061" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="1.371" height="6.167"/>
+</g>
+<g>
+	<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="22.029" y1="45.573" x2="28.582" y2="41.761"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="28.097,41.276 29.066,42.245 22.513,46.058
+		21.544,45.089 	"/>
+</g>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="29.163" cy="41.18" r="1.783"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="7.963" cy="51.05" r="1.783"/>
+<rect x="12.485" y="51.182" width="6.304" height="1.52"/>
+<text transform="matrix(0.939 -0.3439 0.3439 0.939 12.8027 31.6616)" fill="#FFFFFF" font-family="'OCRAStd'" font-size="3.2889">T</text>
+<polyline fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="19.063,41.183 23.996,43.65 21.529,46.116 19.063,43.65
+	19.063,51.05 16.596,51.05 14.129,51.05 11.663,51.05 11.663,43.65 9.196,46.116 6.729,43.65 11.663,41.183 14.129,41.183 "/>
+<path id="commitSvg" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M30.623,62.52c-1.127,0-2.041-1.027-2.041-2.296v-9.183
+	c0-1.268,0.914-2.296,2.041-2.296h5.101c1.127,0,2.041,1.028,2.041,2.296v9.183c0,1.269-0.914,2.296-2.041,2.296H30.623z"/>
+<text transform="matrix(0.8264 0 0 1 10.5234 68.834)" font-family="'MyriadPro-Regular'" font-size="5.7556">Push</text>
+<rect x="24.932" y="55.827" width="16.483" height="9.756"/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="43.497,53.764 53.363,53.764 53.363,51.298 60.764,56.23
+	53.363,61.164 53.363,58.697 43.497,58.697 "/>
+<text transform="matrix(0.9071 0.4208 -0.4208 0.9071 30.6631 61.876)" fill="#FFFFFF" font-family="'OCRAStd'" font-size="4.4038">T</text>
+<style type="text/css">
+	path#commitSvg  {
+	fill: purple;
+	}
+
+	path#repoPushSvg {
+			animation-name: colorshift;
+			animation-duration: 3s;
+			animation-iteration-count: 1;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+			display: inline-block;
+	}
+	@keyframes colorshift {
+	from { fill: purple; }
+	to { fill: blue; }
+	}
+</style>
+</svg>
