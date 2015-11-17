@@ -4,6 +4,7 @@
   <link rel="stylesheet" type="text/css" href="css/g2.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel='stylesheet' type='text/css'>
   <link href="/Users/alexanderson/andalexrepos/gitSquared/assets/github_vector_icons/octicons.css" rel='stylesheet' type='text/css'>
+  <title>gitSquared</title>
 </head>
 
 <!--
@@ -12,23 +13,24 @@ Jess
 Jake
 Conn
 -->
+<body>
 
 <div id="wrapper">
 
 
-    <div id="nav">FIXED SCROLL NAV BAR
-      <a href="#lesson_1">Lesson 1</a>
-      <a href="#lesson_2">Lesson 2</a>
-      <a href="#lesson_3">Lesson 3</a>
-      <a href="#lesson_4">Lesson 4</a>
-      <a href="#lesson_5">Lesson 5</a>
-    </div>
+  <div id="nav">FIXED SCROLL NAV BAR
+    <a href="#lesson_1">Lesson 1</a>
+    <a href="#lesson_2">Lesson 2</a>
+    <a href="#lesson_3">Lesson 3</a>
+    <a href="#lesson_4">Lesson 4</a>
+    <a href="#lesson_5">Lesson 5</a>
+  </div>
 
-    <div id="content">
+  <div id="content">
 
-      <div class="scroll">
+    <div class="scroll">
 
-        <div id="dynamic_header">JESSICA'S FANCY HEADER (DISAPEARS)</div>
+      <div id="dynamic_header">git<sup>2</sup></div>
 
         <div class="modules">
 
@@ -47,7 +49,11 @@ Conn
 <!--please use this as an outline format for ux-->
             <!-- <input class="lesson_input" id="lesson_1_input">lesson input</input> -->
             <div id="modOnePicDiv"><img src="" id="moduleOnePicture"></div>
-            <p id="moduleOneOutput"> You behold your desktop. What do you do? </p>
+            <p id="moduleOneOutput">
+              <br>
+                You behold your desktop. What do you do?
+              <br>
+            </p>
 
             <div id="moduleOneButtonDiv">
               <button class="moduleOneButtons" onclick="openTerminal()">Open Terminal</button>
@@ -56,23 +62,34 @@ Conn
               <button class="moduleOneButtons" onclick="navigateTerminal()">Select Local Repo Location</button>
               <button class="moduleOneButtons" onclick="enterGitCloneCommand()">Enter "git clone" command</button>
               <button class="moduleOneButtons" onclick="reset()">Start Over</button>
-            </div>
+            </div> <!--Ends Mod 1 Buttons Div-->
             <!--****************************-->
             <!--Module 1 Git Clone ends here -->
             <!--****************************-->
 
-          </div>
+          </div> <!--Ends Mod 1 Div-->
 
 
           <div id="module_2">
-
             <!--****************************-->
             <!--Module 2 Modify doc starts here -->
             <!--****************************-->
 <!--please use this to fill content for the lessons-->
             <div class="moduleTitle">Mod the Thing</div>
             <!-- <div class="module">MODEL HERE</div> -->
-            <div class="module_content"><p>This step is where your modify your document. Our recomendation is to do a simple text file. In your terminal navigate into your repository folder. Type <br><br> "touch testFile.txt" <br><br> in your terminal. Then, try an "ls" command, to see your newly created document!<br><br> Before we carry on much farther, a few terms to help you understand whats going on with git. <br> We will refer to things as "local" or "remote". <strong> Local</strong> refers to documents that are on your computer. This includes anything you've not commited, or added (don't worry if you don't know what those are yet. We'll go into them more later!). Anything refered to as <strong>remote </strong>is on another computer. In this context, we'll be accessing GitHub's servers. If that sounds challenging, worry not! It can be daunting at first, but you'll be a wiz at it before you know it! <br> <br>So, now that we've updated the file and learned what local and remote are, What happens next? </p></div>
+            <div class="module_content">
+              <p>This step is where your modify your document. Our recomendation is to do a simple text file. In your terminal navigate into your repository folder. Type
+                <br>
+                <br> "touch testFile.txt"
+                <br>
+                <br> in your terminal. Then, try an "ls" command, to see your newly created document!
+                <br>
+                <br> Before we carry on much farther, a few terms to help you understand whats going on with git.
+                <br> We will refer to things as "local" or "remote". <strong> Local</strong> refers to documents that are on your computer. This includes anything you've not commited, or added (don't worry if you don't know what those are yet. We'll go into them more later!). Anything refered to as <strong>remote </strong>is on another computer. In this context, we'll be accessing GitHub's servers. If that sounds challenging, worry not! It can be daunting at first, but you'll be a wiz at it before you know it!
+                <br>
+                <br>So, now that we've updated the file and learned what local and remote are, What happens next?
+              </p>
+            </div>
             <!-- <div class="module_vis_static">MODULE STATIC CONTENT HERE</div> -->
             <!-- <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div> -->
             <!--please use this as an outline format for ux-->
@@ -81,7 +98,7 @@ Conn
             <!--****************************-->
             <!--Module 2 modify doc ends here -->
             <!--****************************-->
-        </div>
+          </div>  <!--Ends Mod 2 Div-->
 
 
 
@@ -127,7 +144,7 @@ Conn
 
             <button class="lesson_button" id="hintGitAdd">Hint</button>
 
-          </div>
+          </div> <!--Ends Mod 3 Div-->
 
             <!--****************************-->
             <!--Module 3 Git Add ends here-->
@@ -146,13 +163,14 @@ Conn
             <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
 
             <!--please use this outline format for ux-->
-            <input class="lesson_input" id="lesson_5_input">Please type the correct git push command</input>
+            <input class="lesson_input" id="lesson_5_input">Please type the correct git push command
+            </input>
 
             <input class="lesson_button" id="lesson_5_button" type="submit" value="submit git command"></input>
             <!--****************************-->
             <!--Module 4 Git commit ends here -->
             <!--****************************-->
-
+          </div> <!--Ends Mod 4 Div-->
 
           <div id="module_5">
             <!--****************************-->
@@ -164,14 +182,15 @@ Conn
             <div class="moduleTitle">Module #5: git push <span class="octicon octicon-repo-push"></span></div>
             <div class="module">In this module, you will learn how to push files using git</div>
             <div class="module_content">
-            <p>In the previous module, you have:<br>
-              Cloned and Modified your example file, <br>
-              Added those changes to your staged commits<br>
-              Commited your changes to your repository<br>
-              Now you will:
-              Push those changes to your github repository, so that your local repository <br>
-              <strong>and</strong> remote repository are identical. Lets try it below:
-            </p></div>
+                <p>In the previous module, you have:<br>
+                Cloned and Modified your example file, <br>
+                Added those changes to your staged commits<br>
+                Commited your changes to your repository<br>
+                Now you will:
+                Push those changes to your github repository, so that your local repository <br>
+                <strong>and</strong> remote repository are identical. Lets try it below:
+                </p>
+            </div>
             <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
             <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
 
@@ -182,18 +201,18 @@ Conn
             <button onclick="pushHint ()" class="lesson_button" id="lesson_4_hint">hint?</button>
             <p id="modOutput"></p>
             <p>Alex NOTE: this works but I will add an animation with a later feature branch.</p>
-          </div>
+          </div> <!--Ends Mod 5 Div-->
 
             <!--****************************-->
             <!--Module 5 Git push ends here -->
             <!--****************************-->
-          </div>
 
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+        </div> <!--Ends Modules Div-->
+      <!-- </div> -->
+    </div> <!--Ends Scroll Div-->
+  </div> <!--Ends Content Div-->
+</div> <!--Ends Wrapper Div-->
 
 
 <script src="js/jquery-2.1.4.min.js"></script>
