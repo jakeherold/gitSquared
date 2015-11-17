@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<path id="cloneSvg" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M38.825,51.309c0,2.706-2.469,4.9-5.514,4.9H11.254
+	c-3.045,0-5.514-2.194-5.514-4.9V39.054c0-2.707,2.469-4.902,5.514-4.902h22.057c3.045,0,5.514,2.195,5.514,4.902V51.309z"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="70.305" cy="33.004" r="6.893"/>
+<path stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M79.385,26.394L63.69,31.625c0,0-1.743-5.231,3.488-6.975
+	c5.231-1.744,6.975,3.487,6.975,3.487"/>
+<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="67.089" cy="32.545" r="0.919"/>
+<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="73.521" cy="32.545" r="0.92"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="68.927" y1="39.896" x2="74.441" y2="39.896"/>
+<polyline points="68.927,50.925 68.927,61.953 66.17,61.953 66.17,50.925 "/>
+<polyline points="74.441,50.925 74.441,61.953 71.684,61.953 71.684,50.925 "/>
+<rect x="70.458" y="61.646" width="5.515" height="2.758"/>
+<rect x="63.412" y="61.646" width="5.515" height="2.758"/>
+<g>
+	<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="62.033" y1="43.113" x2="62.033" y2="50.006"/>
+	<rect x="61.268" y="43.113" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="1.532" height="6.893"/>
+</g>
+<g>
+	<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="77.755" y1="44.804" x2="85.08" y2="40.542"/>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="84.539,40 85.622,41.084 78.297,45.345 77.214,44.262
+		"/>
+</g>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="85.73" cy="39.893" r="1.993"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="62.033" cy="50.925" r="1.992"/>
+<rect x="67.089" y="51.072" width="7.046" height="1.697"/>
+<text transform="matrix(0.939 -0.3439 0.3439 0.939 67.4424 29.2544)" fill="#FFFFFF" font-family="'OCRAStd'" font-size="3.6761">T</text>
+<polyline fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="74.441,39.896 79.955,42.653 77.197,45.411
+	74.441,42.653 74.441,50.925 71.684,50.925 68.927,50.925 66.17,50.925 66.17,42.653 63.412,45.411 60.655,42.653 66.17,39.896
+	68.927,39.896 "/>
+<path  id="timmyCloneSvg" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M94.808,37.08c0,1.26-1.148,2.281-2.565,2.281H81.978
+	c-1.416,0-2.565-1.021-2.565-2.281v-5.702c0-1.26,1.149-2.281,2.565-2.281h10.265c1.417,0,2.565,1.021,2.565,2.281V37.08z"/>
+<text transform="matrix(0.8264 0 0 1 64.0254 71.4395)" font-family="'MyriadPro-Regular'" font-size="6.4333">Clone</text>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="40.728,42.837 51.756,42.837 51.756,40.08 60.027,45.594
+	51.756,51.108 51.756,48.352 40.728,48.352 "/>
+
+	<style type="text/css">
+		path#cloneSvg {
+		fill: blue;
+		}
+		path#timmyCloneSvg {
+		    animation-name: colorshift;
+		    animation-duration: 3s;
+		    animation-iteration-count: 1;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+		    display: inline-block;
+		}
+		@keyframes colorshift {
+		from { fill: blue; }
+		to { fill: red; }
+		}
+	</style>
+
+</svg>
