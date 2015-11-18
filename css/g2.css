@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Fabfelt;
+    src: url(fonts/FabfeltScript-Bold.otf);
+}
+@font-face {
+    font-family: Lumber;
+    src: url(fonts/Lumber.ttf);
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +17,13 @@ html, body {
     font-size: 1.25em;
     height: 100%;
 }
+p{
+  padding:1em;
+}
+ul{
+  padding: 1em;
+}
+
 #wrapper:before {
     content:'';
     float: left;
@@ -15,10 +32,28 @@ html, body {
 #wrapper {
     height: 100%;
 }
-#nav {
+#siteNav {
     padding: 1em;
-    height: 50px;
+    height: 100%;
     background: gray;
+    text-align: center;
+    font-size: 1.3em;
+    position: fixed;
+    border-width: 0px;
+    border-right: 3px black solid;
+    margin-right: 1em;
+
+}
+#lessonNav {
+    padding: 1em;
+    font-size: 2em;
+    background: gray;
+    text-align: center;
+    padding-left: 1em;
+
+}
+.intraLink{
+  font-family:'Lumber','Fabfelt';
 }
 div {
   border: 1px solid black;
@@ -29,12 +64,19 @@ background: #f9f9f9;
 font-size: 2em;
 text-align: center;
 height: 3em;
+display: inline;
 }
 #logo{
-
+  font-family:'Lumber','Fabfelt';
+  font-size: 2em;
+}
+#superTwo{
+  font-family:'Lumber','Fabfelt';
 }
 #logoSubscript{
   font-size: .6em;
+  font-family:'Lumber','Fabfelt';
+
 }
 div#lesson_header {
 height: 50px;
@@ -59,12 +101,7 @@ position: sticky;
 .lessons {
     height: 1000px;
 }
-#module_1 {
-  background-color: #d3d3d3;
-  width: 100%;
-  height: 50%;
-  overflow: auto;
-}
+
 button{
   font-size: 1.1em;
   text-align: center;
@@ -77,65 +114,109 @@ button{
   padding-top: .3em;
   padding-bottom: .3em;
 }
+
+.moduleUI{
+  text-align: center;
+}
+/*Lesson 1 Mod 1*/
+/******************/
+/* Git Clone*/
+/****************/
+#module_1 {
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 50%;
+  overflow: auto;
+}
+#timmy{
+  float: left;
+}
+#clone{
+  text-align: left;
+}
 #moduleOnePicture {
   width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+ /* margin-left: 25%;
+  margin-right: 25%;*/
+  float:right;
+}
+#moduleOneContent{
+  display: inline;
+  padding: .2em;
+}
+#graphicInterfaceModOne{
+  display: block;
 }
 #moduleOneOutput{
   text-align: center;
   padding-top: .2em;
   padding-bottom: .2em;
 }
-#modOnePicDiv{
-}
+
 .moduleOneButtons{
   text-align: center;
   margin-top: .3em;
   margin-bottom: .3em;
 }
+
 #moduleOneButtonDiv{
   text-align: center;
+  display: inline-block;
 }
+
+/*Lesson 1 Mod 2*/
+/******************/
+/* Mod Doc*/
+/****************/
 #module_2 {
   background-color: #bdbdbd;
   width: 100%;
   height: 90%;
 }
+/*Lesson 1 Mod 3*/
+/******************/
+/*Git Add*/
+/****************/
 #module_3 {
 background-color: #a8a8a8;
 width: 100%;
 height: 90%;
 }
-#module_4 {
-background-color: #939393;
-width: 100%;
-height: 90%;
-}
-#module_5 {
-background-color: #7e7e7e;
-width: 100%;
-height: 90%;
-}
-
-/******************/
-/*Module: Git Add*/
-/****************/
-
 .command{
   font-size: 1em;
 }
 #correct, #sorry, #addHint{
   display: none;
 }
+#modThreeUI{
+  text-align: center;
+}
 
+/*Lesson 1 Mod 4*/
 /*********************/
-/*Module: Git Commit*/
+/* Git Commit*/
 /*******************/
 
 #correctCommit, #sorryCommit, #commitHint{
   display: none;
 }
+#module_4 {
+background-color: #939393;
+width: 100%;
+height: 90%;
+}
+
+/*Lesson 1 Mod 5*/
+/******************/
+/* Git Push*/
+/****************/
+#module_5 {
+background-color: #7e7e7e;
+width: 100%;
+height: 90%;
+}
+
+
 /******************/
 /*   SVG STUFF   */
 /****************/

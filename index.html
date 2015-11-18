@@ -17,56 +17,57 @@ Conn
 
 <div id="wrapper">
 
-  <div id="nav">FIXED SCROLL NAV BAR
-    <a href="#module_1">Module 1</a>
-    <a href="#module_2">Module 2</a>
-    <a href="#module_3">Module 3</a>
-    <a href="#module_4">Module 4</a>
-    <a href="#module_5">Module 5</a>
-    <a href="about.html">About</a>
-    <a href="prework.html">Prework</a>
-  </div>
+    <div id="navigation">
 
+        <div id="siteNav">
+            <a href="about.html" class="intraLink">About</a>
+            <a href="prework.html" class="intraLink">prework</a>
+        </div>
 
-  <div id="content">
-<!-- ======= NEED FURTHER REVIEW: ISSUES IS THAT OUR NAV THEORIES AREN"T THE SAME
-    <div id="nav">FIXED SCROLL NAV BAR
-      <a href="#lesson_1">Lesson 1</a>
-      <a href="#lesson_2">Lesson 2</a>
-      <a href="#lesson_3">Lesson 3</a>
-      <a href="#lesson_4">Lesson 4</a>
-      <a href="#lesson_5">Lesson 5</a>
+        <div id="lessonNav">
+            <a href="#module_1" class="intraLink">git clone</a>
+            <a href="#module_2" class="intraLink">modify</a>
+            <a href="#module_3" class="intraLink">git add</a>
+            <a href="#module_4" class="intraLink">git commit</a>
+            <a href="#module_5" class="intraLink">git push</a>
+        </div>
 
     </div>
->>>>>>> b75c3abdeff9b2439fc31702669f76dad9c46b3c -->
+
+  <div id="content">
 
     <div class="scroll">
 
-      <div id="dynamic_header"><p id="logo">git<sup>2</sup></p> <br> <p id="logoSubscript">get git.</p></div>
+      <div id="dynamic_header"><p id="logo">git<sup id="superTwo">2</sup></p> <br> <p id="logoSubscript">get git.</p></div>
 
       <div class="modules">
 
+
+
+        <!--****************************-->
+        <!--Module 1 Git Clone starts here -->
+        <!--****************************-->
         <div id="module_1">
 
-<!--please use this to fill content for the lessons-->
-            <!--****************************-->
-            <!--Module 1 Git Clone starts here -->
-            <!--****************************-->
             <div class="moduleTitle">Git clone</div>
-            <!-- <div class="module">MODEL HERE</div> -->
-            <div class="module_content"><object id="timmy" type="image/svg+xml" data="svg/timmy.svg"></object><p>Welcome to gitSquared! Git is an incredible tool for programers. It will help you collaborate with your fellow programmer types, and never lose a single line of code! However, it can be tedious and difficult to learn We're here to make it easier on you. The first step in doing this is cloning your repository.<br> First things first, use your terminal to navigate to the folder you'd like your repository folder to live in. Your second step is to go to your repository (repo) on Git Hub and copy the URL of the repository you want to use. Finally, go into your terminal and type <br><br> "git clone [your URL here]" <br><br>in your terminal. You should see a new folder with your README.md file in it. You now have a local repo on your computer! </p> </div>
-            <object id="clone" type="image/svg+xml" data="svg/clone.svg"></object><br>
 
-            <!-- <div class="module_vis_static">MODULE STATIC CONTENT HERE</div> -->
-            <!-- <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div> -->
+            <div class="moduleOneContent"><object id="timmy" type="image/svg+xml" data="svg/timmy.svg"></object><p>Welcome to gitSquared! Git is an incredible tool for programers. It will help you collaborate with your fellow programmer types, and never lose a single line of code! However, it can be tedious and difficult to learn We're here to make it easier on you. The first step in doing this is cloning your repository.<br> First things first, use your terminal to navigate to the folder you'd like your repository folder to live in. Your second step is to go to your repository (repo) on Git Hub and copy the URL of the repository you want to use. Finally, go into your terminal and type <br><br> "git clone [your URL here]" <br><br>in your terminal. You should see a new folder with your README.md file in it. You now have a local repo on your computer! </p> </div>
+            <br>
 
-          <div id="modOnePicDiv"><img src="" id="moduleOnePicture"></div>
-           <p id="moduleOneOutput">
+
+          <div id="graphicInterfaceModOne">
+
+                  <object id="clone" type="image/svg+xml" data="svg/clone.svg"></object>
+                  <img src="" id="moduleOnePicture">
+          </div> <!--Ends graphic interface mod one-->
+
+          <div id="moduleOneOutput">
+            <p >
              <br>
                You behold your desktop. What do you do?
              <br>
            </p>
-
+          </div>
 
             <div id="moduleOneButtonDiv">
               <button class="moduleOneButtons" onclick="openTerminal()">Open Terminal</button>
@@ -76,21 +77,21 @@ Conn
               <button class="moduleOneButtons" onclick="enterGitCloneCommand()">Enter "git clone" command</button>
               <button class="moduleOneButtons" onclick="reset()">Start Over</button>
             </div> <!--Ends Mod 1 Buttons Div-->
-            <!--****************************-->
-            <!--Module 1 Git Clone ends here -->
-            <!--****************************-->
 
           </div> <!--Ends Mod 1 Div-->
 
+        <!--****************************-->
+        <!--Module 1 Git Clone ends here -->
+        <!--****************************-->
 
-
+        <!--****************************-->
+        <!--Module 2 Modify doc starts here -->
+        <!--****************************-->
           <div id="module_2">
-            <!--****************************-->
-            <!--Module 2 Modify doc starts here -->
-            <!--****************************-->
+
 
             <div class="moduleTitle">Mod the Thing</div>
-            <!-- <div class="module">MODEL HERE</div> -->
+
             <div class="module_content">
               <p>This step is where your modify your document. Our recomendation is to do a simple text file. In your terminal navigate into your repository folder. Type
                 <br>
@@ -104,23 +105,17 @@ Conn
                 <br>So, now that we've updated the file and learned what local and remote are, What happens next?
               </p>
             </div>
-            <!-- <div class="module_vis_static">MODULE STATIC CONTENT HERE</div> -->
-            <!-- <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div> -->
-            <!--please use this as an outline format for ux-->
-            <input class="lesson_input" id="lesson_2_input">lesson input</input>
-            <input class="lesson_button" id="lesson_2_button" type="submit" value="submit">lesson button</input>
-            <!--****************************-->
-            <!--Module 2 modify doc ends here -->
-            <!--****************************-->
 
           </div>  <!--Ends Mod 2 Div-->
 
+        <!--****************************-->
+        <!--Module 2 modify doc ends here -->
+        <!--****************************-->
 
 
-
-          <!--****************************-->
-          <!--Module 3 Git Add starts here-->
-          <!--****************************-->
+        <!--****************************-->
+        <!--Module 3 Git Add starts here-->
+        <!--****************************-->
           <div id="module_3">
             <div class="moduleTitle">Git Add: The Staging Area!</div>
             <div class="module_content">
@@ -137,8 +132,6 @@ Conn
                 </ul>
             </div>
 
-          <!-- <div class="module_vis_static">MODULE STATIC CONTENT HERE</div> -->
-
           <div class="module_vis_dynamic" id="gitAddOutput">
             <img src="">
             <img src="">
@@ -153,32 +146,27 @@ Conn
              <p id="correct">Correct!</p>
              <p id="sorry">Sorry, that was not correct. Click on the hint button if you need a hint.</p>
              <p id="addHint">Hint: git add [your file here]</p>
-           </div>
+          </div>
 
+          <div class="moduleUI">
             <input class="lesson_input" id="gitAddInput">git command</input>
             <button class="lesson_button" id="enterCommand">Submit Command</button>
             <button class="lesson_button" id="hintGitAdd">Hint</button>
+          </div>
 
-          </div> <!--Ends Mod 3 Div-->
+        </div> <!--Ends Mod 3 Div-->
 
-            <!--****************************-->
-            <!--Module 3 Git Add ends here-->
-            <!--****************************-->
-
-          <div id="module_4">
-
-
-          <!--****************************-->
-          <!--Module 3 Git Add ends here  -->
-          <!--****************************-->
+        <!--****************************-->
+        <!--Module 3 Git Add ends here-->
+        <!--****************************-->
 
 
-         <!--*******************************-->
-         <!--Module 4 Git Commit Starts here-->
-         <!--*******************************-->
+        <!--*******************************-->
+        <!--Module 4 Git Commit Starts here-->
+        <!--*******************************-->
          <div id="module_4">
 
-          <div class="module">Git Commit: Locking your changes</div>
+          <div class="moduleTitle">Git Commit: Locking your changes</div>
           <div class="module_content">
             <p class="command"><em>git commit -m "[Your detail description here]"</em></p>
             <ul>
@@ -189,12 +177,8 @@ Conn
                 <li>Snapshots are safe from changes, unless you explicitly ask Git to do so.</li>
               </ul>
             </div>
-           <!--  <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
-            <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div>
- -->
 
-            <!--User Interactive Part-->
-            <div class="feedback">
+          <div class="feedback">
             <p id="introCommit">Now assume that you aleady have done git add for your testFile.txt.
             We need to do git commit so that Git will protect the snapshots that we have staged.
             Please type the correct command that you would type in your terminal in the input field.</p>
@@ -202,11 +186,14 @@ Conn
              <p id="sorryCommit">Sorry, that was not correct. Make sure that you did not leave your description
               message empty. Click on the hint button if you need a hint.</p>
              <p id="commitHint">Hint: git commit -m "[Your detail description here]"</p>
-           </div>
+          </div>
 
+          <div class="moduleUI">
             <input class="lesson_input" id="gitCommitInput">git command</input>
             <button class="lesson_button" id="enterCommit">Submit Command</button>
             <button class="lesson_button" id="hintGitCommit">Hint</button>
+          </div>
+
         </div>
 
             <!--******************************-->
@@ -221,8 +208,8 @@ Conn
           <div id="module_5">
 
             <!--ALEX WORKING ON push.js FOR THE PUSH MODULE SECTION-->
-            <!--please use this to fill content for the lessons-->
-            <div class="mod_title">Module #5: git push <span class="octicon octicon-repo-push"></span></div>
+
+            <div class="moduleTitle">Module #5: git push <span class="octicon octicon-repo-push"></span></div>
             <div class="module">In this module, you will learn how to push files using git</div>
             <div class="module_content">
               <p>In the previous module, you have:<br>
@@ -234,16 +221,16 @@ Conn
                 <strong>and</strong> remote repository are identical. Lets try it below:
               </p>
             </div>
-              <!-- <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
-              <div class="module_vis_dynamic">MODULE DYNAMIC CONTENT HERE</div> -->
 
-              <!--please use this outline format for ux-->
+            <div class="moduleUI">
               <input class="lesson_input" id="lesson_4_input" type="text">Please type the correct git push command</input>
 
               <button onclick="pushMod()" class="lesson_button" id="lesson_4_button">enter git command</button>
               <button onclick="pushHint ()" class="lesson_button" id="lesson_4_hint">hint?</button>
               <p id="modOutput"></p>
               <p>Alex NOTE: this works but I will add an animation with a later feature branch.</p>
+            </div>
+
             </div>
           <!--****************************-->
           <!--Module 5 Git push ends here -->
@@ -253,8 +240,6 @@ Conn
       </div>
     </div>
   </div>
-
-
 
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/add.js" type="text/javascript"></script>
