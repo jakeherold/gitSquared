@@ -25,6 +25,15 @@ div {
 div#dynamic_header {
 height: 50px;
 background: #f9f9f9;
+font-size: 2em;
+text-align: center;
+height: 3em;
+}
+#logo{
+
+}
+#logoSubscript{
+  font-size: .6em;
 }
 div#lesson_header {
 height: 50px;
