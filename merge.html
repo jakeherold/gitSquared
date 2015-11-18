@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+</head>
+<body>
+
+
+          <!--****************************-->
+          <!--Module Git Merge starts here-->
+          <!--****************************-->
+          <div id="module_4">
+            <div class="moduleTitle">Git Merge: Brings Everyone Up-to-date</div>
+            <div class="module_content">
+              <p class="command"><em>git merge [target branch]</em>: merge the target branch into the current branch (see which branch you are on by calling <i>git branch</i>). Git will determine the merge algorithm automatically (discussed below).</p>
+              <p class="command"><em>git merge --no-ff [branch]</em>: merge the target branch into the current branch, always generate a merge commit (even if it was a fast-forward merge). This is useful for documenting all merges that occur in your repository.</p>
+              <p class="command"><em>Note:</em>
+                <ul>
+                  <li>All commands listed above merge the target branch into the current branch that you are working on.</li>
+                  <li>The current branch will be updated.</li>
+                  <li>The target branch is completely unaffected.</li>
+                  <li>Merge commands are often used with <i>git checkout</i> and <i>git branch -d</i></li>
+                  <li>There are two types of merge: fast-forward merge and 3-way merge.</li>
+                </ul>
+              </p>
+              <p><b>Fast Forward Merge:</b>
+              <ul>
+                <li>Occurs when there is no change applied to the parent branch eversince you created a new child branch from it and added changes to that child branch</li>
+                <li>Git combines the histories of the two branches, since all of the commits reachable from the target branch are now available through the current one.</li>
+              </ul>
+              </p>
+
+              <p><b>3-Way Merge:</b>
+                <ul>
+                  <li>You have to go through a 3-way merge when the branches have diverged.</li>
+                  <li>3-way merge uses three commits to generate the merge commit: one from the parent's tip, one from the child's tip and the third one is from the point right before the child started to grow.</li>
+                  <li>This resembles tying the two branches back together.</li>
+                </ul>
+              </p>
+
+              <p><b>Conflicts-The root of all the pains</b><br />
+                <ul>
+                  <li>This happens when the two branches have changes at the same part of a file.</li>
+                  <li>Git does not know which change should be kept and which change should be discarded.</li>
+                  <li>When this occurs, it stops right before the merge commit and you need to resolve the conflicts manually.</li>
+                  <li>Running <i>git status</i> will tell you which file(s) resulted in conflicts</li>
+                  <li>After resolving the conflicts and ready to continue merging, calling <i>git add</i> will tell Git that the conflicts have been resolved.</li>
+                  <li>Run <i>git commit</i> will then generate the merge commit.</li>
+                </ul>
+              </p>
+          </div>
+
+          <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
+
+          <div class="module_vis_dynamic" id="gitAddOutput">
+            <img src="">
+            <img src="">
+            <img src="">
+          </div>
+
+          <!--User Interactive Part-->
+          <!--No interactive part as conflicts are hard to simulate-->
+
+        </div>
+
+          <!--****************************-->
+          <!--Module 3 Git Merge ends here-->
+          <!--****************************-->
+          <script src="gitSquared/js/jquery-2.1.4.min.js"></script>
+          <script src="gitSquared/js/branch.js" type="text/javascript"></script>
+  </body>
+</html>
