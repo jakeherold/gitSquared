@@ -9,20 +9,23 @@ background-color: ;
 width:50%;
 height:90%;
 margin:0 auto;
+margin-top: 0;
 
 
 }
 
-h1{
+#mainHeader{
 font-family: 'SwistBlnk Banthers', cursive;
-font-size:12em;
+font-size:8em;
 color: #4BB5C1;
 text-align:center;
 opacity:0.93;
 display:inline-center;
 margin-bottom: 0;
+padding-top: 0;
+margin-top: 0;
 }
-h2{
+#enterButton{
 font-family: 'SwistBlnk Banthers', cursive;
 font-size:5em;
 color: #96CA2D;
@@ -39,9 +42,9 @@ margin:15px 0;
 display:inline;
 
 }
-h3{
+#mainSubHeader{
 font-family: 'SwistBlnk Banthers','Amatic SC', cursive;
-font-size:16pt;
+font-size:2em;
 color: #3A8D96;
 text-align:center;
 }
