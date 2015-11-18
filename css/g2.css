@@ -16,6 +16,7 @@ html, body {
     height: 100%;
 }
 #nav {
+    padding: 1em;
     height: 50px;
     background: gray;
 }
@@ -134,4 +135,12 @@ height: 90%;
 
 #correctCommit, #sorryCommit, #commitHint{
   display: none;
+}
+/******************/
+/*   SVG STUFF   */
+/****************/
+
+object {
+width: 300px;
+height: 300px;
 }

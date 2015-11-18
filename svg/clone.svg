@@ -44,14 +44,14 @@
 		path#timmyCloneSvg {
 		    animation-name: colorshift;
 		    animation-duration: 3s;
-		    animation-iteration-count: 1;
+		    animation-iteration-count: infinite;
 				animation-timing-function: ease-in-out;
 				animation-fill-mode: forwards;
 		    display: inline-block;
 		}
 		@keyframes colorshift {
 		from { fill: blue; }
-		to { fill: red; }
+		to { fill: #ADD8E6; }
 		}
 	</style>
 
