@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="40px" viewBox="0 0 100 40" enable-background="new 0 0 100 40" xml:space="preserve">
+<g id="feature_x5F_branch_x5F_workflow_x5F_1">
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M33.372,14.648c0,2.788-2.27,5.058-5.058,5.058 M33.372,14.648
+		c0-2.788,2.27-5.058,5.057-5.058h19.787"/>
+	<circle id="circ1" fill="none" stroke="#000000" stroke-miterlimit="10" cx="43.783" cy="9.591" r="2.591"/>
+	<circle id="circ2" fill="none" stroke="#000000" stroke-miterlimit="10" cx="55.625" cy="9.591" r="2.591"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M67.997,24.763c0-2.788-2.271-5.057-5.057-5.057 M67.997,24.763
+		c0,2.788,2.269,5.058,5.057,5.058H92.84"/>
+	<circle id="circ3" fill="none" stroke="#000000" stroke-miterlimit="10" cx="78.396" cy="29.821" r="2.59"/>
+	<circle id="circ4"  fill="none" stroke="#000000" stroke-miterlimit="10" cx="90.237" cy="29.821" r="2.59"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M7.344,19.706h68.461"/>
+	<circle id="circ6" fill="none" stroke="#000000" stroke-miterlimit="10" cx="9.934" cy="19.706" r="2.59"/>
+	<circle id="circ7" fill="none" stroke="#000000" stroke-miterlimit="10" cx="21.776" cy="19.706" r="2.59"/>
+	<circle id="circ8"  fill="none" stroke="#000000" stroke-miterlimit="10" cx="43.66" cy="19.706" r="2.59"/>
+	<circle id="circ9" fill="none" stroke="#000000" stroke-miterlimit="10" cx="55.625" cy="19.706" r="2.59"/>
+	<circle  id="circ10" fill="none" stroke="#000000" stroke-miterlimit="10" cx="78.396" cy="19.706" r="2.59"/>
+</g>
+<style type="text/css">
+circle#circ6 {
+			animation-name: colorshift;
+			animation-duration: 1s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: infinite;
+			display: inline-block;
+	}
+	@keyframes colorshift {
+	0% { fill: #FFFFFF; }
+	25% { fill: #CDFF00; }
+	50% { fill: #CDFF00; }
+	100% { fill: #FFFFFF; }
+	}
+	circle#circ7 {
+				animation-name: colorshift;
+				animation-duration: 1s;
+				animation-timing-function: ease-in-out;
+				animation-iteration-count: infinite;
+				display: inline-block;
+		}
+		@keyframes colorshift {
+		0% { fill: #FFFFFF; }
+		25% { fill: #CDFF00; }
+		50% { fill: #CDFF00; }
+		100% { fill: #FFFFFF; }
+		}
+		circle#circ1 {
+					animation-name: colorshift;
+					animation-duration: 1s;
+					animation-timing-function: ease-in-out;
+					animation-iteration-count: infinite;
+					display: inline-block;
+			}
+			@keyframes colorshift {
+			0% { fill: #FFFFFF; }
+			25% { fill: #CDFF00; }
+			50% { fill: #CDFF00; }
+			100% { fill: #FFFFFF; }
+			}
+			circle#circ6 {
+						animation-name: colorshift;
+						animation-duration: 1s;
+						animation-timing-function: ease-in-out;
+						animation-iteration-count: infinite;
+						display: inline-block;
+				}
+				@keyframes colorshift {
+				0% { fill: #FFFFFF; }
+				25% { fill: #CDFF00; }
+				50% { fill: #CDFF00; }
+				100% { fill: #FFFFFF; }
+				}
+				circle#circ8 {
+							animation-name: colorshift;
+							animation-duration: 1s;
+							animation-timing-function: ease-in-out;
+							animation-iteration-count: infinite;
+							display: inline-block;
+					}
+					@keyframes colorshift {
+					0% { fill: #FFFFFF; }
+					25% { fill: #CDFF00; }
+					50% { fill: #CDFF00; }
+					100% { fill: #FFFFFF; }
+					}
+					circle#circ2 {
+								animation-name: colorshift;
+								animation-duration: 1s;
+								animation-timing-function: ease-in-out;
+								animation-iteration-count: infinite;
+								display: inline-block;
+						}
+						@keyframes colorshift {
+						0% { fill: #FFFFFF; }
+						25% { fill: #CDFF00; }
+						50% { fill: #CDFF00; }
+						100% { fill: #FFFFFF; }
+						}
+					circle#circ9 {
+								animation-name: colorshift;
+								animation-duration: 1s;
+								animation-timing-function: ease-in-out;
+								animation-iteration-count: infinite;
+								display: inline-block;
+						}
+						@keyframes colorshift {
+						0% { fill: #FFFFFF; }
+						25% { fill: #CDFF00; }
+						50% { fill: #CDFF00; }
+						100% { fill: #FFFFFF; }
+						}
+						circle#circ10 {
+									animation-name: colorshift;
+									animation-duration: 1s;
+									animation-timing-function: ease-in-out;
+									animation-iteration-count: infinite;
+									display: inline-block;
+							}
+							@keyframes colorshift {
+							0% { fill: #FFFFFF; }
+							25% { fill: #CDFF00; }
+							50% { fill: #CDFF00; }
+							100% { fill: #FFFFFF; }
+							}
+						circle#circ3 {
+									animation-name: colorshift;
+									animation-duration: 1s;
+									animation-timing-function: ease-in-out;
+									animation-iteration-count: infinite;
+									display: inline-block;
+							}
+							@keyframes colorshift {
+							0% { fill: #FFFFFF; }
+							25% { fill: #CDFF00; }
+							50% { fill: #CDFF00; }
+							100% { fill: #FFFFFF; }
+							}
+							circle#circ4 {
+										animation-name: colorshift;
+										animation-duration: 1s;
+										animation-timing-function: ease-in-out;
+										animation-iteration-count: infinite;
+										display: inline-block;
+								}
+								@keyframes colorshift {
+								0% { fill: #FFFFFF; }
+								25% { fill: #CDFF00; }
+								50% { fill: #CDFF00; }
+								100% { fill: #FFFFFF; }
+								}
+
+</style>
+</svg>

@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Fabfelt;
+    src: url(fonts/FabfeltScript-Bold.otf);
+}
+@font-face {
+    font-family: Lumber;
+    src: url(fonts/Lumber.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +15,23 @@ html, body {
     font-size: 1.25em;
     height: 100%;
 }
+p{
+  padding:1em;
+}
+ul{
+  padding: 1em;
+}
+a {
+  text-decoration: none;
+  color: #52656B;
+}
+a:hover {
+  color: #FF3B77;
+}
+a:active {
+  color: #7F1D3B;
+}
+
 #wrapper:before {
     content:'';
     float: left;
@@ -15,16 +40,67 @@ html, body {
 #wrapper {
     height: 100%;
 }
-#nav {
-    height: 50px;
-    background: gray;
+#branch_animate {
+  margin: 0 auto;
+  margin: .25em;
 }
-div {
-  border: 1px solid black;
+#branching-multi {
+  width: 400px;
+  height: 100px;
+}
+#navigation {
+  text-align: center;
+  border-bottom: 1px #52656B solid;
+}
+#siteNav {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: .5em;
+    height: 100%;;
+    font-size: 1em;
+}
+#lessonNav {
+    padding: .5em;
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+#about, #prework {
+  display: inline-block;
+  margin-top: 0;
+  background: #52656B;
+  color: #FFFFFF;
+  letter-spacing: .5em;
+}
+#about:hover, #prework:hover {
+  background-color: #FF3B77;
+}
+#about:active, #prework:active {
+  color: #7F1D3B;
+}
+.intraLink {
+  padding: .5em;
+  height: 100%;
+  font-family:'Lumber','Fabfelt';
 }
 div#dynamic_header {
 height: 50px;
 background: #f9f9f9;
+font-size: 2em;
+text-align: center;
+height: 1em;
+display: inline;
+}
+#logo{
+  font-family:'Lumber','Fabfelt';
+  font-size: 2em;
+}
+#superTwo{
+  font-family:'Lumber','Fabfelt';
+}
+#logoSubscript{
+  font-size: .6em;
+  font-family:'Lumber','Fabfelt';
+
 }
 div#lesson_header {
 height: 50px;
@@ -49,28 +125,89 @@ position: sticky;
 .lessons {
     height: 1000px;
 }
-#lesson_1 {
-  background-color: #d3d3d3;
-  width: 100%;
-  height: 50%;
+
+button{
+  font-size: 1.1em;
+  text-align: center;
+  padding:3px;
+
 }
-#lesson_2 {
-  background-color: #bdbdbd;
-  width: 100%;
-  height: 90%;
+.moduleTitle{
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: .3em;
+  padding-bottom: .3em;
 }
-#lesson_3 {
-background-color: #a8a8a8;
+
+.moduleUI{
+  text-align: center;
+}
+/*Lesson 1 Mod 1*/
+/******************/
+/* Git Clone*/
+/****************/
+#timmy{
+}
+#clone{
+  text-align: left;
+}
+.module {
+display: inline;
+background-color: #ffffff;
 width: 100%;
 height: 90%;
 }
-#lesson_4 {
-background-color: #939393;
-width: 100%;
-height: 90%;
+
+#moduleOnePicture {
+  width: 50%;
+  float:right;
 }
-#lesson_5 {
-background-color: #7e7e7e;
-width: 100%;
-height: 90%;
+#moduleOneContent{
+  display: inline;
+  padding: .2em;
+}
+#graphicInterfaceModOne{
+  display: block;
+}
+#moduleOneOutput{
+  text-align: center;
+  padding-top: .2em;
+  padding-bottom: .2em;
+}
+
+.moduleOneButtons{
+  text-align: center;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
+#moduleOneButtonDiv{
+  text-align: center;
+  display: inline-block;
+}
+.command{
+  font-size: 1em;
+}
+#correct, #sorry, #addHint{
+  display: none;
+}
+#modThreeUI{
+  text-align: center;
+}
+
+/*Lesson 1 Mod 4*/
+/*********************/
+/* Git Commit*/
+/*******************/
+
+#correctCommit, #sorryCommit, #commitHint{
+  display: none;
+}
+/******************/
+/*   SVG STUFF   */
+/****************/
+
+object {
+width: 300px;
+height: 300px;
 }
