@@ -228,3 +228,21 @@ object {
 width: 300px;
 height: 300px;
 }
+
+#preworkTerminalPic{
+  width: 40%;
+  margin-right: 30%;
+  margin-left: 30%;
+
+}
+
+#gitHubCat{
+
+  width: 30%;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+#githubPreworkText{
+  text-align: center;
+}
