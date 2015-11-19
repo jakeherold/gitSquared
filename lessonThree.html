@@ -1,0 +1,99 @@
+<!-- Lesson Two -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/g2.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel='stylesheet' type='text/css'>
+  <title>gitSquared</title>
+  <link href="assets/github_vector_icons/octicons.css" rel='stylesheet' type='text/css'>
+</head>
+
+<!--
+Alex
+Jess
+Jake
+Conn
+-->
+<body>
+
+<div id="wrapper">
+
+    <div id="siteNav">
+      <a href="about.html" class="intraLink">About</a>
+      <a href="prework.html" class="intraLink">prework</a>
+      <a href="index.html">Lesson One</a>
+      <a href="lessonTwo.html">Lesson Two</a>
+      <a href="">Lesson Three</a>
+    </div>
+
+    <div>Lesson Navigation
+      <a href="#module_1">Module 1</a>
+      <a href="#module_2">Module 2</a>
+      <a href="#module_3">Module 3</a>
+    </div>
+
+
+
+  <div id="content">
+
+    <div class="scroll">
+
+      <div id="dynamic_header">Lesson Three</div>
+
+      <div class="modules">
+
+
+
+        <div id="module_1">
+            <!--****************************-->
+            <!--Module 1 Git remote starts here -->
+            <!--****************************-->
+            <div class="moduleTitle">Git Remote</div>
+            <!-- <div class="module">MODEL HERE</div> -->
+            <div class="module_content"><p> So, You've been working hard on your project. You decided that since you now have several working features that are version tracked, its time to team up with a buddy! The problem comes in the form of multiple repositories. You have one, she has one. How do we go about utilizing her repository? Well, we use the "remote" command.  The new command (seen below) will tell us which remote repositories we have access to.
+            <br>
+            <br>
+            "git remote"
+            <br>
+            <br>
+            We should see something like "origin" pop up. There are all manner of things that your terminal will report back. More important than the feedback, remote lets us access another person's repository...well...remotely. The remote repository is able to be seen and manipulated locally, but is held seperate from your local one.
+            <br>
+            <br>
+            "git remote add [name] [url]"
+            <br>
+            <br>
+            In the above example, we have to give the "remote add" command two different parameters. [name] refers to the name of the remote branch you'd like to add. You get to pick this name, so we recommend that you make it something very clear where its coming from. [url] is simply the URL of the repository you want to remote into.
+
+            </p> </div>
+
+          <div id="modOnePicDiv">
+          <img src="" id="LessonTwoModuleOnePicture">
+          </div>
+           <p id="LessonTwoModuleOneOutput">
+             <br>
+               So, you think you got this?
+             <br>
+           </p>
+
+            <div id="LessonTwoModuleOneButtons">
+              <button class="L2M1GotIt" onclick="solidJob()"> I got it!</button>
+              <button class="L2M1DontGotIt" onclick="reread()"> I don't got it!</button>
+            </div> <!--Ends Mod 1 Buttons Div-->
+            <!--****************************-->
+            <!--Module 1 Git Status ends here -->
+            <!--****************************-->
+
+          </div> <!--Ends Mod 1 Div-->
+
+
+
+        </div> <!--Ends Modules  Div-->
+      </div> <!--Ends Scroll  Div-->
+    </div> <!--Ends Content  Div-->
+</div> <!--Ends Wrapper  Div-->
+<script type="text/javascript" src="js/status.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/branch.js" type="text/javascript"></script>
+</body>
+</html>
