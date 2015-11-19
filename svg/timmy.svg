@@ -3,30 +3,39 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="48.286" cy="18.918" r="12.386"/>
-<path stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M64.602,7.042l-28.2,9.399c0,0-3.133-9.399,6.267-12.533
-	c9.4-3.134,12.533,6.266,12.533,6.266"/>
-<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="42.507" cy="18.094" r="1.653"/>
-<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="54.064" cy="18.094" r="1.653"/>
-<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="45.808" y1="31.304" x2="55.717" y2="31.304"/>
-<polyline points="45.808,51.12 45.808,70.937 40.854,70.937 40.854,51.12 "/>
-<polyline points="55.717,51.12 55.717,70.937 50.763,70.937 50.763,51.12 "/>
-<rect x="48.561" y="70.386" width="9.908" height="4.954"/>
-<rect x="35.9" y="70.386" width="9.908" height="4.954"/>
 <g>
-	<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="33.423" y1="37.083" x2="33.423" y2="49.469"/>
-	<rect x="32.047" y="37.083" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="2.752" height="12.385"/>
+	<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="47.338" cy="31.419" r="11.745"/>
+	<circle cx="52.54" cy="30.36" r="1.289"/>
+	<circle cx="41.857" cy="30.36" r="1.289"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="44.989" y1="43.166" x2="54.385" y2="43.166"/>
+	<polyline points="44.989,61.957 44.989,80.75 40.292,80.75 40.292,61.957 	"/>
+	<polyline points="54.385,61.957 54.385,80.75 49.688,80.75 49.688,61.957 	"/>
+	<rect x="47.599" y="80.229" width="9.396" height="4.697"/>
+	<rect x="35.593" y="80.229" width="9.396" height="4.697"/>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="34.549,51.516 34.549,60.393 31.939,60.393 31.939,49.207 
+			31.939,48.646 		"/>
+	</g>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="63.279,48.18 71.592,43.342 73.438,45.188 60.957,52.449 
+			60.034,51.527 		"/>
+	</g>
+	<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="75.129" cy="42.188" r="3.396"/>
+	<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="33.244" cy="63.957" r="3.396"/>
+	<rect x="41.857" y="62.209" width="12.006" height="2.893"/>
+	<text transform="matrix(0.939 -0.3439 0.3439 0.939 42.4619 25.0298)" fill="#FFFFFF" font-family="'OCRAStd'" font-size="6.264">T</text>
+	<polygon fill="none" stroke="#000000" stroke-miterlimit="10" points="54.385,43.166 63.781,47.862 59.084,52.562 54.385,47.862 
+		54.385,61.957 49.688,61.957 44.989,61.957 40.292,61.957 40.292,47.862 35.593,52.562 30.896,47.862 40.292,43.166 44.989,43.166 
+			"/>
+	<g>
+		<path d="M62.811,20.157L36.068,29.07c0,0-2.971-8.914,5.943-11.885c8.915-2.971,11.885,5.943,11.885,5.943"/>
+		<path d="M35.12,30.968l-0.474-1.423c-0.035-0.104-0.85-2.598-0.434-5.515c0.399-2.791,1.993-6.49,7.325-8.267
+			c5.329-1.777,8.826,0.226,10.82,2.219c1.127,1.127,1.891,2.37,2.36,3.292l7.618-2.539l0.949,2.846L35.12,30.968z"/>
+	</g>
+	<g enable-background="new    ">
+		<path fill="#FFFFFF" d="M43.025,20.214l0.045,0.124c0.041,0.111,0.016,0.191-0.109,0.237c-0.124,0.045-0.195,0.001-0.236-0.11
+			l-0.172-0.469l1.706-0.625l0.172,0.469c0.041,0.111,0.016,0.191-0.108,0.236c-0.125,0.045-0.196,0.001-0.236-0.11l-0.046-0.124
+			l-0.335,0.123l0.795,2.168c0.04,0.11,0.014,0.19-0.11,0.236c-0.124,0.045-0.195,0.001-0.235-0.109l-0.794-2.168L43.025,20.214z"/>
+	</g>
 </g>
-<g>
-	<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="62.575" y1="37.083" x2="62.575" y2="49.469"/>
-	<rect x="61.199" y="37.083" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="2.752" height="12.385"/>
-</g>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="62.576" cy="51.12" r="3.581"/>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="33.423" cy="51.12" r="3.581"/>
-<rect x="42.506" y="51.386" width="12.66" height="3.05"/>
-<text transform="matrix(0.939 -0.3439 0.3439 0.939 43.1436 12.1807)" fill="#FFFFFF" font-family="'OCRAStd'" font-size="6.6055">T</text>
-<polyline fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="55.717,31.304 65.625,36.258 60.672,41.212
-	55.717,36.258 55.717,51.12 50.763,51.12 45.809,51.12 40.854,51.12 40.854,36.258 35.9,41.212 30.946,36.258 40.854,31.304
-	45.808,31.304 "/>
-<text transform="matrix(0.8264 0 0 1 34.7993 87.1309)" font-family="'MyriadPro-Regular'" font-size="11.5596">TIMMY</text>
 </svg>

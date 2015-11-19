@@ -20,106 +20,136 @@
 	<circle  id="circ10" fill="none" stroke="#000000" stroke-miterlimit="10" cx="78.396" cy="19.706" r="2.59"/>
 </g>
 <style type="text/css">
-circle#circ1 {
+circle#circ6 {
 			animation-name: colorshift;
-			animation-duration: 3s;
-			animation-iteration-count: infinite;
+			animation-duration: 1s;
 			animation-timing-function: ease-in-out;
-			display: inline-block;
-	}
-	@keyframes colorshift {
-	from { fill: purple; }
-	to { fill: blue; }
-	}
-circle#circ2 {
-			animation-name: colorshift;
-			animation-duration: 4s;
 			animation-iteration-count: infinite;
 			display: inline-block;
 	}
 	@keyframes colorshift {
-	from { fill: purple; }
-	to { fill: blue; }
+	0% { fill: #FFFFFF; }
+	25% { fill: #CDFF00; }
+	50% { fill: #CDFF00; }
+	100% { fill: #FFFFFF; }
 	}
-circle#circ3 {
-			animation-name: colorshift;
-			animation-duration: 5s;
-			animation-iteration-count: infinite;
-			display: inline-block;
-	}
-	@keyframes colorshift {
-	from { fill: purple; }
-	to { fill: blue; }
-	}
-circle#circ4 {
-			animation-name: colorshift;
-			animation-duration: 6s;
-			animation-iteration-count: infinite;
-			display: inline-block;
-	}
-	@keyframes colorshift {
-	from { fill: purple; }
-	to { fill: blue; }
-	}
-circle#circ5 {
-			animation-name: colorshift;
-			animation-duration: 7s;
-			animation-iteration-count: infinite;
-			display: inline-block;
-	}
-	@keyframes colorshift {
-	from { fill: purple; }
-	to { fill: blue; }
-	}
-	circle#circ6 {
+	circle#circ7 {
 				animation-name: colorshift;
-				animation-duration: 8s;
+				animation-duration: 1s;
+				animation-timing-function: ease-in-out;
 				animation-iteration-count: infinite;
 				display: inline-block;
 		}
 		@keyframes colorshift {
-		from { fill: purple; }
-		to { fill: blue; }
+		0% { fill: #FFFFFF; }
+		25% { fill: #CDFF00; }
+		50% { fill: #CDFF00; }
+		100% { fill: #FFFFFF; }
 		}
-		circle#circ7 {
+		circle#circ1 {
 					animation-name: colorshift;
-					animation-duration: 9s;
+					animation-duration: 1s;
+					animation-timing-function: ease-in-out;
 					animation-iteration-count: infinite;
 					display: inline-block;
 			}
 			@keyframes colorshift {
-			from { fill: purple; }
-			to { fill: blue; }
+			0% { fill: #FFFFFF; }
+			25% { fill: #CDFF00; }
+			50% { fill: #CDFF00; }
+			100% { fill: #FFFFFF; }
 			}
-			circle#circ8 {
+			circle#circ6 {
 						animation-name: colorshift;
-						animation-duration: 10s;
+						animation-duration: 1s;
+						animation-timing-function: ease-in-out;
 						animation-iteration-count: infinite;
 						display: inline-block;
 				}
 				@keyframes colorshift {
-				from { fill: purple; }
-				to { fill: blue; }
+				0% { fill: #FFFFFF; }
+				25% { fill: #CDFF00; }
+				50% { fill: #CDFF00; }
+				100% { fill: #FFFFFF; }
 				}
-				circle#circ9 {
+				circle#circ8 {
 							animation-name: colorshift;
-							animation-duration: 11s;
+							animation-duration: 1s;
+							animation-timing-function: ease-in-out;
 							animation-iteration-count: infinite;
 							display: inline-block;
 					}
 					@keyframes colorshift {
-					from { fill: purple; }
-					to { fill: blue; }
+					0% { fill: #FFFFFF; }
+					25% { fill: #CDFF00; }
+					50% { fill: #CDFF00; }
+					100% { fill: #FFFFFF; }
 					}
-					circle#circ10 {
+					circle#circ2 {
 								animation-name: colorshift;
-								animation-duration: 12s;
+								animation-duration: 1s;
+								animation-timing-function: ease-in-out;
 								animation-iteration-count: infinite;
 								display: inline-block;
 						}
 						@keyframes colorshift {
-						from { fill: purple; }
-						to { fill: blue; }
+						0% { fill: #FFFFFF; }
+						25% { fill: #CDFF00; }
+						50% { fill: #CDFF00; }
+						100% { fill: #FFFFFF; }
 						}
+					circle#circ9 {
+								animation-name: colorshift;
+								animation-duration: 1s;
+								animation-timing-function: ease-in-out;
+								animation-iteration-count: infinite;
+								display: inline-block;
+						}
+						@keyframes colorshift {
+						0% { fill: #FFFFFF; }
+						25% { fill: #CDFF00; }
+						50% { fill: #CDFF00; }
+						100% { fill: #FFFFFF; }
+						}
+						circle#circ10 {
+									animation-name: colorshift;
+									animation-duration: 1s;
+									animation-timing-function: ease-in-out;
+									animation-iteration-count: infinite;
+									display: inline-block;
+							}
+							@keyframes colorshift {
+							0% { fill: #FFFFFF; }
+							25% { fill: #CDFF00; }
+							50% { fill: #CDFF00; }
+							100% { fill: #FFFFFF; }
+							}
+						circle#circ3 {
+									animation-name: colorshift;
+									animation-duration: 1s;
+									animation-timing-function: ease-in-out;
+									animation-iteration-count: infinite;
+									display: inline-block;
+							}
+							@keyframes colorshift {
+							0% { fill: #FFFFFF; }
+							25% { fill: #CDFF00; }
+							50% { fill: #CDFF00; }
+							100% { fill: #FFFFFF; }
+							}
+							circle#circ4 {
+										animation-name: colorshift;
+										animation-duration: 1s;
+										animation-timing-function: ease-in-out;
+										animation-iteration-count: infinite;
+										display: inline-block;
+								}
+								@keyframes colorshift {
+								0% { fill: #FFFFFF; }
+								25% { fill: #CDFF00; }
+								50% { fill: #CDFF00; }
+								100% { fill: #FFFFFF; }
+								}
+
 </style>
 </svg>
