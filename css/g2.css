@@ -32,17 +32,20 @@ ul{
 #wrapper {
     height: 100%;
 }
+
+#navigation{
+position: fixed;
+left: 0;
+top:0;
+z-index: 1;
+}
 #siteNav {
     padding: 1em;
-    height: 100%;
     background: gray;
     text-align: center;
     font-size: 1.3em;
-    position: fixed;
-    border-width: 0px;
-    border-right: 3px black solid;
-    margin-right: 1em;
 
+    border-width: 0px;
 }
 #lessonNav {
     padding: 1em;
@@ -56,7 +59,7 @@ ul{
   font-family:'Lumber','Fabfelt';
 }
 div {
-  border: 1px solid black;
+
 }
 div#dynamic_header {
 height: 50px;
@@ -130,14 +133,14 @@ button{
 }
 #timmy{
   float: left;
+  margin-left: 10%
 }
 #clone{
   text-align: left;
 }
 #moduleOnePicture {
   width: 50%;
- /* margin-left: 25%;
-  margin-right: 25%;*/
+  margin-right: 10%;
   float:right;
 }
 #moduleOneContent{

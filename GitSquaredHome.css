@@ -1,8 +1,5 @@
-
 body{
-
 background-color: ;
-
 }
 
 #body{
@@ -10,8 +7,6 @@ width:50%;
 height:90%;
 margin:0 auto;
 margin-top: 0;
-
-
 }
 
 #mainHeader{
@@ -25,14 +20,15 @@ margin-bottom: 0;
 padding-top: 0;
 margin-top: 0;
 }
+
 #enterButton{
 font-family: 'SwistBlnk Banthers', cursive;
 font-size:5em;
 color: #96CA2D;
 margin: 1 auto;
 text-align:center;
-
 }
+
 h6{
 font-size:35px;
 font-family: 'SwistBlnk Banthers','Amatic SC', cursive;
@@ -40,14 +36,15 @@ position: center;
 color:#4BB5C1;
 margin:15px 0;
 display:inline;
-
 }
+
 #mainSubHeader{
 font-family: 'SwistBlnk Banthers','Amatic SC', cursive;
 font-size:2em;
 color: #3A8D96;
 text-align:center;
 }
+
 nav{
 font-family: 'SwistBlnk Banthers','Amatic SC', cursive;
 font-size:4em;
@@ -55,31 +52,24 @@ color: #4BB5C1;
 text-align:center;
 padding-bottom: ;
 }
+
 #navigation{
 width: 25%;
 margin: 0 auto;
 padding-top: 20px;
 display:inline;
-
 }
-#titleBox{
 
+#titleBox{
 border:10px;
 border-color:#4BB5C1;
-
 }
+
 .selections{
-
-
 }
+
 #title{
 display:inline-block;
-}
-
-
-
-}
-
 }
 
 #name{
