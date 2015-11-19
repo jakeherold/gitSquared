@@ -85,7 +85,36 @@ Conn
             <!--****************************-->
 
           </div> <!--Ends Mod 1 Div-->
+          <!--******************************-->
+          <!--Module 2 Git Fetch starts here-->
+          <!--******************************-->
+          <div id="module_2">
+            <div class="moduleTitle">Git Fetch: Import Commits</div>
+            <div class="module_content">
+              <p class="command"><em>git fetch [remote]</em>: fetch all of the branches from the repository and download all of the required commits and files from the other repository.</p>
+              <p class="command"><em>git fetch [remote] [branch]</em>Same as the above command, but only fetch the specified branch.</p>
 
+            <ul>
+              <li>This command imports commits from a remote repository into your local repo.</li>
+              <li>Fetch content is represented as a remote branch and has no effect on your local developments.</li>
+              <li>This gives you a chance to review changes before integrating them into your copy of the project.</li>
+              <li>Remote branches represent commits from somebody else's repository.</li>
+              <li>YTo view your remote branches, call <i>git branch -r</i></li>
+              <li>You can inspect remote branches with <i>git checkout</i> and <i>git log</i>.</li>
+              <li>Once you approve the changes, you can merge it into a local branch with <i>git merge</i>.</li>
+            </ul>
+
+            </div>
+
+          <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
+
+          <div class="module_vis_dynamic" id="gitAddOutput">
+            <img src="">
+            <img src="">
+            <img src="">
+          </div>
+
+        </div><!-- Ends module 2  -->
 
 
         </div> <!--Ends Modules  Div-->
@@ -94,6 +123,6 @@ Conn
 </div> <!--Ends Wrapper  Div-->
 <script type="text/javascript" src="js/status.js"></script>
 <script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/branch.js" type="text/javascript"></script>
+<script src="js/fetch.js" type="text/javascript"></script>
 </body>
 </html>
