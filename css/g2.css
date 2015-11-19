@@ -51,6 +51,7 @@ a:active {
     padding-bottom: .5em;
     height: 100%;;
     font-size: 1em;
+
 }
 #lessonNav {
     padding: .5em;
@@ -141,6 +142,7 @@ button{
 /* Git Clone*/
 /****************/
 #timmy{
+
 }
 #clone{
   text-align: left;
@@ -154,6 +156,7 @@ height: 90%;
 
 #moduleOnePicture {
   width: 50%;
+
   float:right;
 }
 #moduleOneContent{

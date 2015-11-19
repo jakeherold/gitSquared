@@ -84,22 +84,23 @@
           <!--****************************-->
           <!--Module 2 Git Branch starts here-->
           <!--****************************-->
-          <div id="module_2">
+          <div id="module_3">
             <div class="moduleTitle">Git Branch: An Independent Line</div>
             <div class="module_content">
-              <p class="command"><em>git branch</em>: list all the branches in your
-              repository</p>
-              <p class="command"><em>git checkout -b [new branch name]</em>: create a new
-              branch and also checkout that branch</p>
-              <p class="command"><em>git branch [new branch name]</em>: create a new branch
-              but does not checkout that branch</p>
-              <p class="command"><em>git branch -d [branch name]</em>: delete the specified branch</p>
-              <p class="command"><em>git branch -D [branch name]</em>: force delete the specified
-              branch even if there are unmerged changes</p>
-              <p class="command"><em>git branch -m [new branch name]</em>: rename a branch</p>
-              <p class="command"><em>Note</em>: git checkout lets you navigate between branches in a repository. The
-              syntax is: <i>git checkout [the branch you want to navigate to]</i></p>
-
+              <div class="commandDiv">
+                <p class="command"><em>git branch</em>: list all the branches in your
+                repository</p>
+                <p class="command"><em>git checkout -b [new branch name]</em>: create a new
+                branch and also checkout that branch</p>
+                <p class="command"><em>git branch [new branch name]</em>: create a new branch
+                but does not checkout that branch</p>
+                <p class="command"><em>git branch -d [branch name]</em>: delete the specified branch</p>
+                <p class="command"><em>git branch -D [branch name]</em>: force delete the specified
+                branch even if there are unmerged changes</p>
+                <p class="command"><em>git branch -m [new branch name]</em>: rename a branch</p>
+                <p class="command"><em>Note</em>: git checkout lets you navigate between branches in a repository. The
+                syntax is: <i>git checkout [the branch you want to navigate to]</i></p>
+              </div>
             <ul>
               <li>Branch is an independent line of development.</li>
               <li>Making a new branch is equivalent to requesting a brand new working directory,
@@ -117,7 +118,11 @@
             <p class="intro" id="intro1">After cloning the git repository to your local machine, you only have one default branch: the <em>master</em> branch. Now, let's go ahead and submit the correct terminal command that create a new
              branch call <i>css</i> <b>without</b> checkout that branch.</p>
              <p class="messageBranch" id="correctBranch">Correct!</p>
+<<<<<<< HEAD
               <p class="messageBranch" id="sorryBranch">Sorry, that was not correct. Do you need a <a href="#module_3">hint</a>?</p>
+=======
+              <p class="messageBranch" id="sorryBranch">Sorry, that was not correct. Click on the hint button if you need a hint.</p>
+>>>>>>> jessicahur-master
              <div>
               <img class="feedbackIllustration" id="master" src="assets/Jessica_Branch/master1.png" alt="master branch" width="400" height="200">
               <img class="feedbackIllustration" id="css" src="assets/Jessica_Branch/css1.png" alt="css branch grows from master branch" width="400" height="200">
@@ -138,7 +143,10 @@
             <input class="lesson_input" id="gitBranchInput">git command</input>
             <button class="lesson_button" id="enterCommand">Submit Command</button>
 
-        </div>
+            <button class="lesson_button" id="hintGitBranch">Hint</button>
+           </div>
+
+
 
           <!--****************************-->
           <!--Module 2 Git Branch ends here  -->

@@ -134,4 +134,9 @@ function branchTest(){
   }
 }
 
+function hint(){
+  $(".commandDiv").hide().fadeIn(500);
+}
+
 $("#enterCommand").on("click",branchTest);
+$("#hintGitBranch").on("click",hint);
