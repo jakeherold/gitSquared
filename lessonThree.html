@@ -1,4 +1,9 @@
-<!-- Lesson Two -->
+<!-- Lesson Three -->
+<!-- Modules
++git remote
++git fetch
++git pull
+ -->
 
 <!DOCTYPE html>
 <html>
@@ -9,12 +14,6 @@
   <link href="assets/github_vector_icons/octicons.css" rel='stylesheet' type='text/css'>
 </head>
 
-<!--
-Alex
-Jess
-Jake
-Conn
--->
 <body>
 
 <div id="wrapper">
@@ -22,15 +21,15 @@ Conn
     <div id="siteNav">
       <a href="about.html" class="intraLink">About</a>
       <a href="prework.html" class="intraLink">prework</a>
-      <a href="index.html">Lesson One</a>
-      <a href="lessonTwo.html">Lesson Two</a>
-      <a href="">Lesson Three</a>
+      <a href="index.html" class="intraLink">Lesson One</a>
+      <a href="lessonTwo.html" class="intraLink">Lesson Two</a>
+      <a href="lessonThree.html" class="intraLink">Lesson Three</a>
     </div>
 
     <div>Lesson Navigation
-      <a href="#module_1">Module 1</a>
-      <a href="#module_2">Module 2</a>
-      <a href="#module_3">Module 3</a>
+      <a href="#module_1" class="intraLink">Module 1</a>
+      <a href="#module_2" class="intraLink">Module 2</a>
+      <a href="#module_3" class="intraLink">Module 3</a>
     </div>
 
 
@@ -57,7 +56,7 @@ Conn
             "git remote"
             <br>
             <br>
-            We should see something like "origin" pop up. There are all manner of things that your terminal will report back. More important than the feedback, remote lets us access another person's repository...well...remotely. The remote repository is able to be seen and manipulated locally, but is held seperate from your local one.
+            We should see something like "origin" pop up. There are all manner of things that your terminal will report back. More important than the feedback, remote lets us access another person's repository...well...remotely. The remote repository is able to be seen and manipulated locally, but is held seperate from your local one. Please note that "remote" helps you find and add their repository, while git fetch lets you access it, and bring in it's code.
             <br>
             <br>
             "git remote add [name] [url]"
@@ -67,24 +66,13 @@ Conn
 
             </p> </div>
 
-          <div id="modOnePicDiv">
-          <img src="" id="LessonTwoModuleOnePicture">
-          </div>
-           <p id="LessonTwoModuleOneOutput">
-             <br>
-               So, you think you got this?
-             <br>
-           </p>
-
-            <div id="LessonTwoModuleOneButtons">
-              <button class="L2M1GotIt" onclick="solidJob()"> I got it!</button>
-              <button class="L2M1DontGotIt" onclick="reread()"> I don't got it!</button>
-            </div> <!--Ends Mod 1 Buttons Div-->
-            <!--****************************-->
-            <!--Module 1 Git Status ends here -->
-            <!--****************************-->
-
           </div> <!--Ends Mod 1 Div-->
+
+          <!--****************************-->
+          <!--Module 1 Git Remote ends here -->
+          <!--****************************-->
+
+
           <!--******************************-->
           <!--Module 2 Git Fetch starts here-->
           <!--******************************-->
@@ -106,23 +94,23 @@ Conn
 
             </div>
 
-          <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
+          <!-- <div class="module_vis_static">MODULE STATIC CONTENT HERE</div> -->
 
-          <div class="module_vis_dynamic" id="gitAddOutput">
-            <img src="">
-            <img src="">
-            <img src="">
-          </div>
+            <div class="module_vis_dynamic" id="gitAddOutput">
+              <img src="">
+              <img src="">
+              <img src="">
+            </div>
 
-        </div><!-- Ends module 2  -->
+          </div><!-- Ends module 2  -->
 
 
         </div> <!--Ends Modules  Div-->
       </div> <!--Ends Scroll  Div-->
     </div> <!--Ends Content  Div-->
 </div> <!--Ends Wrapper  Div-->
-<script type="text/javascript" src="js/status.js"></script>
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/fetch.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/status.js"></script>
 </body>
 </html>
