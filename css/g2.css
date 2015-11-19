@@ -228,3 +228,8 @@ object {
 width: 300px;
 height: 300px;
 }
+
+#preworkTerminalPic{
+  width: 40%;
+  text-align: center;
+}
