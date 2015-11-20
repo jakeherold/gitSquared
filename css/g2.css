@@ -292,3 +292,9 @@ display: inline;
  margin: 1.25em;
 
 }
+/******************/
+/*   Lesson Two  */
+/****************/
+#module_1, #module_2, #module_3, #module_4{
+  padding: 20px;
+}
