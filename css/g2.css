@@ -253,6 +253,12 @@ height: 300px;
   border-radius: 10px;
   display: block;
 }
+input{
+  width:200px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
 /*Lesson2*/
 .illustration{
   width: 40%;
