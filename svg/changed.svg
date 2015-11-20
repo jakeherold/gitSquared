@@ -3,34 +3,40 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="33.936" cy="23.459" r="11.745"/>
-<path stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M49.408,12.197L22.666,21.11c0,0-2.971-8.914,5.943-11.885
-	c8.914-2.971,11.885,5.943,11.885,5.943"/>
-<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="28.456" cy="22.678" r="1.567"/>
-<circle stroke="#FFFFFF" stroke-miterlimit="10" cx="39.416" cy="22.678" r="1.567"/>
+<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="33.936" cy="23.459" r="11.745"/>
+<circle cx="39.138" cy="22.4" r="1.289"/>
+<circle cx="28.455" cy="22.4" r="1.289"/>
 <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="31.587" y1="35.205" x2="40.983" y2="35.205"/>
 <polyline points="31.587,53.996 31.587,72.789 26.889,72.789 26.889,53.996 "/>
 <polyline points="40.983,53.996 40.983,72.789 36.285,72.789 36.285,53.996 "/>
-<rect x="34.197" y="72.267" width="9.396" height="4.698"/>
-<rect x="22.191" y="72.267" width="9.396" height="4.698"/>
+<rect x="34.197" y="72.268" width="9.396" height="4.697"/>
+<rect x="22.191" y="72.268" width="9.396" height="4.697"/>
 <g>
-	<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="19.842" y1="40.686" x2="19.842" y2="52.431"/>
-	<rect x="18.537" y="40.686" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="2.61" height="11.745"/>
+	<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="21.147,43.556 21.147,52.432 18.537,52.432 18.537,41.247 
+		18.537,40.686 	"/>
 </g>
 <g>
-	<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="46.632" y1="43.566" x2="59.112" y2="36.305"/>
-	<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="58.189,35.382 60.035,37.228 47.554,44.489 
-		45.709,42.644 	"/>
+	<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="49.877,40.219 58.189,35.382 60.035,37.228 47.554,44.489 
+		46.632,43.566 	"/>
 </g>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="60.22" cy="35.198" r="3.396"/>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="19.842" cy="53.996" r="3.396"/>
+<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="61.727" cy="34.228" r="3.396"/>
+<circle fill="none" stroke="#000000" stroke-miterlimit="10" cx="19.842" cy="55.996" r="3.396"/>
 <rect x="28.455" y="54.248" width="12.006" height="2.893"/>
 <text transform="matrix(0.939 -0.3439 0.3439 0.939 29.0596 17.0693)" fill="#FFFFFF" font-family="'OCRAStd'" font-size="6.264">T</text>
-<polyline fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="40.983,35.205 50.379,39.902 45.681,44.601 
-	40.983,39.902 40.983,53.996 36.285,53.996 31.587,53.996 26.889,53.996 26.889,39.902 22.191,44.601 17.493,39.902 26.889,35.205 
-	31.587,35.205 "/>
-<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M62.999,71.818c-2.146,0-3.886-1.958-3.886-4.373V49.956
-	c0-2.415,1.739-4.372,3.886-4.372h9.716c2.146,0,3.887,1.958,3.887,4.372v17.489c0,2.415-1.74,4.373-3.887,4.373H62.999z"/>
-<text transform="matrix(0.8264 0 0 1 22.4805 87.8662)" font-family="'MyriadPro-Regular'" font-size="10.962">Add</text>
-<rect x="52.161" y="63.095" width="31.393" height="18.581"/>
+<polygon fill="none" stroke="#000000" stroke-miterlimit="10" points="40.983,35.205 50.379,39.902 45.681,44.601 40.983,39.902 
+	40.983,53.996 36.285,53.996 31.587,53.996 26.889,53.996 26.889,39.902 22.191,44.601 17.493,39.902 26.889,35.205 31.587,35.205 
+	"/>
+<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M62.999,66.818c-2.146,0-3.886-1.959-3.886-4.373V44.956
+	c0-2.415,1.738-4.372,3.886-4.372h9.716c2.146,0,3.887,1.958,3.887,4.372v17.489c0,2.414-1.74,4.373-3.887,4.373H62.999z"/>
+<rect x="52.161" y="58.096" width="31.394" height="18.58"/>
+<g>
+	<path d="M49.408,12.197L22.666,21.11c0,0-2.971-8.914,5.943-11.885c8.914-2.971,11.885,5.943,11.885,5.943"/>
+	<path d="M21.717,23.007l-0.474-1.423c-0.035-0.104-0.85-2.598-0.434-5.515c0.399-2.791,1.993-6.49,7.325-8.267
+		c5.329-1.777,8.826,0.226,10.82,2.219c1.126,1.127,1.891,2.37,2.36,3.292l7.619-2.539l0.948,2.846L21.717,23.007z"/>
+</g>
+<g enable-background="new    ">
+	<path fill="#FFFFFF" d="M29.623,12.254l0.045,0.124c0.041,0.111,0.016,0.191-0.109,0.237c-0.124,0.045-0.195,0.001-0.236-0.11
+		l-0.172-0.469l1.706-0.625l0.172,0.469c0.041,0.111,0.016,0.191-0.108,0.236c-0.125,0.045-0.196,0.001-0.236-0.11l-0.046-0.124
+		l-0.335,0.123l0.795,2.168c0.04,0.11,0.014,0.19-0.11,0.236c-0.124,0.045-0.195,0.001-0.235-0.109l-0.794-2.168L29.623,12.254z"/>
+</g>
 </svg>

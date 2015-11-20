@@ -41,6 +41,15 @@ a:active {
     height: 100%;
 }
 
+#branch_animate {
+  margin: 0 auto;
+  margin: .25em;
+}
+#branching-multi {
+  width: 400px;
+  height: 100px;
+}
+
 #navigation {
   text-align: center;
   border-bottom: 1px #52656B solid;
@@ -82,7 +91,7 @@ height: 50px;
 background: #f9f9f9;
 font-size: 2em;
 text-align: center;
-height: 3em;
+height: 1em;
 display: inline;
 }
 #logo{
