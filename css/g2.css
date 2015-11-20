@@ -7,11 +7,12 @@
     src: url(fonts/Lumber.ttf);
 }
 * {
-  margin: 0;
   padding: 0;
   font-family: Ubuntu Mono, monospace;
 }
 html, body {
+    padding: 0;
+    margin: 0;
     font-size: 1.25em;
     height: 100%;
 }
@@ -45,50 +46,73 @@ a:active {
   margin: 0 auto;
   margin: .25em;
 }
+
 #branching-multi {
   width: 400px;
   height: 100px;
 }
 
-#navigation {
+#navigation_wrap {
+  margin-top: 0;
   text-align: center;
-  border-bottom: 1px #52656B solid;
+  background: #52656B;
 }
 #siteNav {
     display: inline-block;
-    text-align: center;
-    padding-bottom: .5em;
-    height: 100%;;
+    height: 2em;
     font-size: 1em;
 
 }
+#siteNavItems {
+  margin-top: 10px;
+  display: inline-block;
+  height: 100%;
+  color: #FFFFFF;
+  letter-spacing: .5em;
+}
+/*topcolors*/
+#about {
+  border-top: 6px solid #FF3B77;
+}
+#prework {
+  border-top: 6px solid #CDFF00;
+}
+#index {
+  border-top: 6px solid #FFFFFF;
+}
+#lesson2 {
+  border-top: 6px solid #B8B89F;
+}
+/****/
+#siteNavItems > a {
+  display: inline-block;
+  margin-top: 0;
+  padding: 10px;
+}
+#siteNavItems > a, #lessonNav > a {
+  color: #FFFFFF;
+}
+#siteNavItems > a:hover, #lessonNav > a:hover {
+  color: #FF3B77;
+}
+
 #lessonNav {
     padding: .5em;
     font-size: 1.5em;
     padding-left: 1em;
 }
-#about, #prework {
-  display: inline-block;
-  margin-top: 0;
-  background: #52656B;
-  color: #FFFFFF;
-  letter-spacing: .5em;
-}
-#about:hover, #prework:hover {
-  background-color: #FF3B77;
-}
-
-#about:active, #prework:active {
-  color: #7F1D3B;
+#lessonNav > a {
+display: inline-block;
+padding: .5em;
+border: 2px solid white;
 }
 .intraLink {
-  padding: .5em;
-  height: 100%;
   font-family:'Lumber','Fabfelt';
 }
+/****/
+
 div#dynamic_header {
 height: 50px;
-background: #f9f9f9;
 font-size: 2em;
 text-align: center;
 height: 1em;
@@ -161,12 +185,13 @@ display: inline;
 background-color: #ffffff;
 width: 100%;
 height: 90%;
+padding: 20px;
 }
 
 #moduleOnePicture {
   width: 50%;
-
-  float:right;
+  margin: 10px auto;
+  /*float:right;*/
 }
 #moduleOneContent{
   display: inline;
@@ -174,11 +199,12 @@ height: 90%;
 }
 #graphicInterfaceModOne{
   display: block;
+  text-align: center;
 }
 #moduleOneOutput{
   text-align: center;
-  padding-top: .2em;
-  padding-bottom: .2em;
+  /*padding-top: .2em;
+  padding-bottom: .2em;*/
 }
 
 .moduleOneButtons{
@@ -198,6 +224,10 @@ height: 90%;
   display: none;
 }
 #modThreeUI{
+  text-align: center;
+}
+
+#modOnePicDiv{
   text-align: center;
 }
 
@@ -235,4 +265,64 @@ height: 300px;
 
 #githubPreworkText{
   text-align: center;
+}
+
+
+/*********************/
+/*   Feedback Box   */
+/*******************/
+
+/*Lesson 1*/
+#moduleOneOutput, .feedbackBox{
+  background-color: pink;
+  margin: 10px auto;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  border: solid 1px silver;
+  border-radius: 10px;
+  display: block;
+  overflow: scroll;
+}
+input{
+  width:200px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+/*Lesson2*/
+.illustration{
+  width: 40%;
+  margin: 10px auto;
+}
+.Mod2Buttons{
+  text-align: center;
+}
+#LessonTwoModuleOneButtons{
+  text-align: center;
+}
+/******************/
+/*VIDEO  STUFF   */
+/****************/
+
+#aboutVid{
+  width: 25%;
+}
+#about_content{
+display: inline;
+
+
+}
+
+#vidDiv{
+ /*text-align: center;*/
+ float: left;
+ margin: 1.25em;
+
+}
+/******************/
+/*   Lesson Two  */
+/****************/
+#module_1, #module_2, #module_3, #module_4{
+  padding: 20px;
 }

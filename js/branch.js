@@ -135,7 +135,10 @@ function branchTest(){
 }
 
 function hint(){
+  //$.scrollTo("#CommandDiv");
   $(".commandDiv").hide().fadeIn(500);
+  //window.location.hash = "#CommandDiv";
+  $("#CommandDiv")[0].scrollIntoView();
 }
 
 $("#enterCommand").on("click",branchTest);
