@@ -239,6 +239,7 @@ height: 300px;
   text-align: center;
 }
 
+
 /*********************/
 /*   Feedback Box   */
 /*******************/
@@ -271,4 +272,23 @@ input{
 }
 #LessonTwoModuleOneButtons{
   text-align: center;
+}
+/******************/
+/*VIDEO  STUFF   */
+/****************/
+
+#aboutVid{
+  width: 25%;
+}
+#about_content{
+display: inline;
+
+
+}
+
+#vidDiv{
+ /*text-align: center;*/
+ float: left;
+ margin: 1.25em;
+
 }
