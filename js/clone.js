@@ -6,7 +6,8 @@ var gitCloneCommand = false;
 var moduleOneComplete = false;
 moduleOnePicture.src = "assets/images/desktop.png";
 
-var openTerminal = function (){
+var cloneMethods = {
+  openTerminal: function (){
   if (terminalOpen === false){
     terminalOpen = true;
     document.getElementById("moduleOneOutput").innerHTML = "You open a terminal!";
@@ -14,8 +15,9 @@ var openTerminal = function (){
   } else {
     document.getElementById("moduleOneOutput").innerHTML = "You already have a terminal open!";
   }
-}
- var openGitHub = function(){
+},
+
+ openGitHub: function(){
   if (gitHubOpen === false){
     gitHubOpen = true;
     document.getElementById("moduleOneOutput").innerHTML = "You open the internet!";
@@ -23,9 +25,9 @@ var openTerminal = function (){
   } else {
     document.getElementById("moduleOneOutput").innerHTML = "You've already opened the internet!";
   }
- }
+ },
 
- var copyURL = function(){
+ copyURL: function(){
   if ((gitHubOpen === true) && (urlCopied === false)){
     urlCopied = true;
     document.getElementById("moduleOneOutput").innerHTML = "You copy the URL";
@@ -35,9 +37,9 @@ var openTerminal = function (){
   } else if (urlCopied=== true){
     document.getElementById("moduleOneOutput").innerHTML = "You've already copied the URL!";
   }
- }
+ },
 
-var navigateTerminal = function (){
+navigateTerminal: function (){
   if ((terminalRightPlace === false) && (terminalOpen === true)){
     terminalRightPlace = true;
     document.getElementById("moduleOneOutput").innerHTML = "Nice! you moved to where you want the file!";
@@ -48,9 +50,9 @@ var navigateTerminal = function (){
   else {
     document.getElementById("moduleOneOutput").innerHTML = "I mean....you already went somewhere, but its cool that you changed your mind. ";
   }
-}
+},
 
-var enterGitCloneCommand = function (){
+enterGitCloneCommand: function (){
   if ((terminalOpen === true) && (urlCopied === true) && (terminalRightPlace === true)){
      document.getElementById("moduleOneOutput").innerHTML = "Awesome! You got everything just right! You're now the pround owner of a local copy of your repository!";
      moduleOnePicture.src = "assets/images/typeGitClone.png";
@@ -69,9 +71,9 @@ var enterGitCloneCommand = function (){
   else {
     document.getElementById("moduleOneOutput").innerHTML = "Not ever the devs know whats going on or how you got here. Here there be dragons. Godspeed, foolish mortal.";
   }
-}
+},
 
-var reset = function () {
+reset: function () {
   terminalOpen = false;
   gitHubOpen = false;
   urlCopied = false;
@@ -81,4 +83,4 @@ var reset = function () {
   moduleOnePicture.src = "assets/images/desktop.png";
 }
 
-
+}
