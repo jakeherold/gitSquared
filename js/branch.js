@@ -1,5 +1,7 @@
 $(".intro:not(#intro1)").css({"display": "none"});
 $(".messageBranch").css({"display": "none"});
+$(".feedbackIllustration").css({"display": "none"});
+$("#master").css({"display": "block"});
 counter = 1;
 function branchTest(){
   var $message = $(".messageBranch");
@@ -8,6 +10,14 @@ function branchTest(){
   var intro = "";
   var $numIntro = $(".intro");
   var $userInput = $("#gitBranchInput").val();
+  //Responsive diagram variables declared
+  var $illustration = $(".feedbackIllustration");
+  var $master = $("#master");
+  var $css = $("#css");
+  var $mistake = $("#mistake");
+  var $terminal = $("#terminal");
+  var $backMaster = $("#backMaster");
+  var $deleteMistake = $("#deleteMistake");
   switch (counter){
     case 2:
       if ($userInput=="git checkout -b mistake_branch" ){
@@ -20,6 +30,8 @@ function branchTest(){
         $numIntro.css({"display": "none"});
         $(intro).css({"display": "block"});
         intro = "";
+        $illustration.css({"display": "none"});
+        $mistake.css({"display": "block"});
       }
       else{
         $message.css({"display": "none"});
@@ -37,6 +49,8 @@ function branchTest(){
         $numIntro.css({"display": "none"});
         $(intro).css({"display": "block"});
         intro = "";
+        $illustration.css({"display": "none"});
+        $terminal.css({"display": "block"});
       }
       else{
         $message.css({"display": "none"});
@@ -54,6 +68,9 @@ function branchTest(){
         $numIntro.css({"display": "none"});
         $(intro).css({"display": "block"});
         intro = "";
+        $illustration.css({"display": "none"});
+        $illustration.css({"display": "none"});
+        $backMaster.css({"display": "block"});
       }
       else{
         $message.css({"display": "none"});
@@ -70,6 +87,8 @@ function branchTest(){
         $numIntro.css({"display": "none"});
         $(intro).css({"display": "block"});
         intro = "";
+        $illustration.css({"display": "none"});
+        $deleteMistake.css({"display": "block"});
       }
       else{
         $message.css({"display": "none"});
@@ -94,6 +113,8 @@ function branchTest(){
       console.log("counter is now: "+counter);
       $message.css({"display": "none"});
       $correct.css({"display": "block"});
+      $illustration.css({"display": "none"});
+      $css.css({"display": "block"});
     }
     else{
       $message.css({"display": "none"});
@@ -108,7 +129,17 @@ function branchTest(){
     $message.css({"display": "none"});
     $(".intro").css({"display": "none"});
     $("#intro1").css({"display": "block"});
+    $illustration.css({"display": "none"});
+    $master.css({"display": "block"});
   }
 }
 
+function hint(){
+  //$.scrollTo("#CommandDiv");
+  $(".commandDiv").hide().fadeIn(500);
+  //window.location.hash = "#CommandDiv";
+  $("#CommandDiv")[0].scrollIntoView();
+}
+
 $("#enterCommand").on("click",branchTest);
+$("#hintGitBranch").on("click",hint);

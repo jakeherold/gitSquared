@@ -1,4 +1,6 @@
-function pushMod() {
+var pushObject = {
+
+pushMod: function() {
 
   var lesson_4_input = document.getElementById('lesson_4_input').value;
 
@@ -13,9 +15,11 @@ function pushMod() {
   } else {
     document.getElementById('modOutput').innerHTML = "Oops! "+lesson_4_input+" was not the correct git command. need a hint?";
   }
-}
+},
 
-function pushHint () {
+pushHint: function () {
   document.getElementById('modOutput').innerHTML = "In the previous section you modified a file, added your changes to your staged commits, and commited the file to your <strong>local</strong> repository. Now you need to push these changes from your <strong>local</strong> repository to your <strong>remote</strong> repository. try using the push command, with the arguments origin (where you are locally) and the destination repository master (on github.com)."
+
+}
 
 }

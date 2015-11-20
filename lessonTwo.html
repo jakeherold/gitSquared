@@ -1,5 +1,10 @@
 <!-- Lesson Two -->
-
+<!-- Modules
++git status
++git branch
++git checkout
++git merge
+ -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,54 +12,47 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel='stylesheet' type='text/css'>
   <title>gitSquared</title>
   <link href="assets/github_vector_icons/octicons.css" rel='stylesheet' type='text/css'>
-</head>
+  <link rel="icon" href="assets/images/git2favicon.svg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 
-<!--
-Alex
-Jess
-Jake
-Conn
--->
+
+</head>
 <body>
 
-<div id="wrapper">
-<div id="navigation">
-  
-  <div id="branch_animate">
-  <object id="branching-multi" type="image/svg+xml" data="svg/branch-master.svg"></object>
-  </div>
+  <div id="wrapper">
+    <div id="navigation_wrap">
+      <div id="siteNav">
+        <div id="siteNavItems">
+          <a href="about.html" class="intraLink" id="about">about</a>
 
-  <div id="siteNav">
-    <div id="about">
-      <a href="about.html" class="intraLink" id="about">about</a>
+          <a href="prework.html"class="intraLink" id="prework">prework</a>
+          <a href="index.html" class="intraLink" id="index">lesson 1</a>
+          <a href="lessonTwo.html" class="intraLink" id="lesson2">lesson 2</a>
+          <a href="lessonThree.html" class="intraLink" id="lesson3">lesson 3</a>
+        </div>
+        <div id="lessonNav">
+          <a href="#module_1" class="intraLink">git status</a>
+          <a href="#module_2" class="intraLink">git branch</a>
+          <a href="#module_3" class="intraLink">git checkout</a>
+          <a href="#module_4" class="intraLink">git merge</a>
+        </div>
+
+
       </div>
-  <div id="prework">
-    <a href="prework.html" class="intraLink" id="prework">prework</a>
     </div>
-  <div id="prework">
-<a href="index.html" class="intraLink" id="prework">lesson 1</a>
-  </div>
+    <div id="content">
 
-  <div id="prework">
-<a href="lessonTwo.html" class="intraLink" id="prework">lesson 2</a>
-  </div>
+      <div class="scroll">
+        <div id="dynamic_header">
+          <div id=branch_animate>
+          <object id="branching-multi" type="image/svg+xml" data="svg/branch-master.svg"></object>
 
-  <div id="lessonNav">
-    <a href="#module_1" class="intraLink">git status</a>
-    <a href="#module_2" class="intraLink">git branch</a>
-    <a href="#module_3" class="intraLink">git checkout</a>
-  </div>
-
-</div>
-</div>
-  <div id="content">
-
-    <div class="scroll">
-      <div class="modules">
+        </div>
+        </div>
 
 
 
-        <div id="module_1">
+        <div class="modules" id="module_1">
             <!--****************************-->
             <!--Module 1 Git Status starts here -->
             <!--****************************-->
@@ -70,14 +68,12 @@ Conn
           <img src="" id="LessonTwoModuleOnePicture">
           </div>
            <p id="LessonTwoModuleOneOutput">
-             <br>
                So, you think you got this?
-             <br>
            </p>
 
             <div id="LessonTwoModuleOneButtons">
-              <button class="L2M1GotIt" onclick="solidJob()"> I got it!</button>
-              <button class="L2M1DontGotIt" onclick="reread()"> I don't got it!</button>
+              <button class="L2M1GotIt" onclick="output.solidJob()"> I got it!</button>
+              <button class="L2M1DontGotIt" onclick="output.reread()"> I don't got it!</button>
             </div> <!--Ends Mod 1 Buttons Div-->
             <!--****************************-->
             <!--Module 1 Git Status ends here -->
@@ -89,22 +85,23 @@ Conn
           <!--****************************-->
           <!--Module 2 Git Branch starts here-->
           <!--****************************-->
-          <div id="module_2">
+          <div class="modules" id="module_2">
             <div class="moduleTitle">Git Branch: An Independent Line</div>
             <div class="module_content">
-              <p class="command"><em>git branch</em>: list all the branches in your
-              repository</p>
-              <p class="command"><em>git checkout -b [new branch name]</em>: create a new
-              branch and also checkout that branch</p>
-              <p class="command"><em>git branch [new branch name]</em>: create a new branch
-              but does not checkout that branch</p>
-              <p class="command"><em>git branch -d [branch name]</em>: delete the specified branch</p>
-              <p class="command"><em>git branch -D [branch name]</em>: force delete the specified
-              branch even if there are unmerged changes</p>
-              <p class="command"><em>git branch -m [new branch name]</em>: rename a branch</p>
-              <p class="command"><em>Note</em>: git checkout lets you navigate between branches in a repository. The
-              syntax is: <i>git checkout [the branch you want to navigate to]</i></p>
-
+              <div class="commandDiv" id="CommandDiv">
+                <p class="command"><em>git branch</em>: list all the branches in your
+                repository</p>
+                <p class="command"><em>git checkout -b [new branch name]</em>: create a new
+                branch and also checkout that branch</p>
+                <p class="command"><em>git branch [new branch name]</em>: create a new branch
+                but does not checkout that branch</p>
+                <p class="command"><em>git branch -d [branch name]</em>: delete the specified branch</p>
+                <p class="command"><em>git branch -D [branch name]</em>: force delete the specified
+                branch even if there are unmerged changes</p>
+                <p class="command"><em>git branch -m [new branch name]</em>: rename a branch</p>
+                <p class="command"><em>Note</em>: git checkout lets you navigate between branches in a repository. The
+                syntax is: <i>git checkout [the branch you want to navigate to]</i></p>
+              </div>
             <ul>
               <li>Branch is an independent line of development.</li>
               <li>Making a new branch is equivalent to requesting a brand new working directory,
@@ -114,38 +111,42 @@ Conn
             </ul>
           </div>
 
-          <div class="module_vis_static">MODULE STATIC CONTENT HERE</div>
-
-          <div class="module_vis_dynamic" id="gitAddOutput">
-            <img src="">
-            <img src="">
-            <img src="">
-          </div>
 
           <!--User Interactive Part-->
           <div class="feedback">
             <p>Let's practice creating and deleting branches. Please type the correct command that you
              would type in your terminal in the input field.</p>
-            <p class="intro" id="intro1">After cloning the git repository to your local machine, you only have one default branch:
-             the <em>master</em> branch. Now, let's go ahead and submit the correct terminal command that create a new
+            <p class="intro" id="intro1">After cloning the git repository to your local machine, you only have one default branch: the <em>master</em> branch. Now, let's go ahead and submit the correct terminal command that create a new
              branch call <i>css</i> <b>without</b> checkout that branch.</p>
-            <p class="intro" id="intro2">So far we have 2 branches: a <i>master</i> branch and a <i>css</i> branch. Please submit the
-            correct command that creates a new branch called <i>mistake_branch</i> and checkout that branch at the same time</p>
+             <div class="feedbackBox">
+              <p class="messageBranch" id="correctBranch">Correct!</p>
+
+              <p class="messageBranch" id="sorryBranch">Sorry, that was not correct. Click on the hint button if you need a hint.</p>
+            </div>
+             <div class="illustration">
+              <img class="feedbackIllustration" id="master" src="assets/Jessica_Branch/master1.png" alt="master branch" width="400" height="200">
+              <img class="feedbackIllustration" id="css" src="assets/Jessica_Branch/css1.png" alt="css branch grows from master branch" width="400" height="200">
+              <img class="feedbackIllustration" id="mistake" src="assets/Jessica_Branch/mistake_branch1.png" width="400" height="200">
+              <img class="feedbackIllustration" id="terminal" src="assets/Jessica_Branch/terminalBranch.png" width="400" height="200">
+              <img class="feedbackIllustration" id="backMaster" src="assets/Jessica_Branch/Back_to_master1.png" width="400" height="200">
+              <img class="feedbackIllustration" id="deleteMistake" src="assets/Jessica_Branch/Final1.png" width="400" height="200">
+             </div>
+
+            <p class="intro" id="intro2">So far we have 2 branches: a <i>master</i> branch and a <i>css</i> branch. Please submit the correct command that creates a new branch called <i>mistake_branch</i> and checkout that branch at the same time</p>
             <p class="intro" id="intro3">We now have 3 branches: <i>master</i>, <i>css</i>, and <i>mistake_branch</i>. Please submit the following command: <i>git branch</i> to see how the terminal indicates that you are currently on <i>mistake_branch</i></p> <!--After submitting here, will show terminal screen cap-->
             <p class="intro" id="intro4">Now, let's go back to the master branch. Please submit the correct command that navigates you back to the <i>master</i> branch.</p>
             <p class="intro" id="intro5">Awesome work so far! Now, let's go ahead and delete the <i>mistake_branch</i>. Since we did not make any changes to any file on the <i>mistake_branch</i>, we will not need to force delete it. However, both delete commands will work just fine in this case. We advise that you use the normal delete command, since Git will prevent you from deleting the branch with unmerged changes. Please submit the correct command to delete the <i>mistake_branch</i>.</p>
             <p class="intro" id="intro6">Great job! We hope now you have a better understanding of git branching! Click the Submit Command button again to restart the practice.</p>
 
-             <p class="messageBranch" id="correctBranch">Correct!</p>
-             <p class="messageBranch" id="sorryBranch">Sorry, that was not correct. Click on the hint button if you need a hint.</p>
+           </div>
+            <div class="Mod2Buttons">
+              <input class="lesson_input" id="gitBranchInput">git command</input>
+              <button class="lesson_button" id="enterCommand">Submit Command</button>
+              <button class="lesson_button" id="hintGitBranch">Hint</button>
+            </div>
            </div>
 
-          <div class="moduleUI">
-            <input class="lesson_input" id="gitBranchInput">git command</input>
-            <button class="lesson_button" id="enterCommand">Submit Command</button>
-            <!-- <button class="lesson_button" id="hintGitAdd">Hint</button> -->
-          </div>
-        </div>
+
 
           <!--****************************-->
           <!--Module 2 Git Branch ends here  -->
@@ -155,29 +156,26 @@ Conn
           <!--Module 3 Git Checkout starts here -->
           <!--****************************-->
 
-          <div id="module_3">
+          <div class="modules" id="module_3">
 
-            <div class="moduleTitle">Git Checkout</div>
+            <div class="moduleTitle">A Brief Aside: Git Checkout</div>
             <!-- <div class="module">MODEL HERE</div> -->
-            <div class="module_content"><p>So, you've created your new branch for your repository. Not only that, you're excited to impliment this new feature that you've been thinking about for days! Unfortunately, you don't know how to get to the new feature branch!
+            <div class="module_content"><p>Once you've created your branches that you need, its important to know how to move around them. The following command will help you do so.
             <br>
             <br>
-            It is at this point that knowing how to use "git checkout [branch name here]" will be a useful thing. When you enter this command, you are changing which branch you're on. The
+            "git checkout [branch name here]"
+            <br>
+            <br>
+             When you enter this command, you are changing which branch you're on. You can also create a new branch, by using
+             <br>
+             <br>
+             "git checkout -b [branch name here] "
+             <br>
+             <br>
+             Once you've done so, you'll find yourself having not only created a new branch, but that you've been moved there as well!
+
+             While these commands are simple and easy to use, they'll be valuble knowledge to keep in the back of your head as you manuver throughout GitHub.
             </p> </div>
-
-          <div id="modTwoPicDiv">
-          <img src="" id="LessonTwoModuleTwoPicture">
-          </div>
-           <p id="LessonTwoModuleTwoOutput">
-             <br>
-               So, you think you got this?
-             <br>
-           </p>
-
-            <div id="LessonTwoModuleOneButtons">
-              <button class="" onclick=""> </button>
-              <button class="" onclick="()"> </button>
-            </div> <!--Ends Mod 3 Buttons Div-->
 
             <!--****************************-->
             <!--Module 3 Git Checkout ends here -->
@@ -185,12 +183,66 @@ Conn
 
 
           </div> <!--Ends Mod 3  Div-->
+
+          <!--****************************-->
+          <!--Module 4 Git Merge starts here-->
+          <!--****************************-->
+          <div class="modules" id="module_4">
+            <div class="moduleTitle">Git Merge: Brings Everyone Up-to-date</div>
+            <div class="module_content">
+              <p class="command"><em>git merge [target branch]</em>: merge the target branch into the current branch (see which branch you are on by calling <i>git branch</i>). Git will determine the merge algorithm automatically (discussed below).</p>
+              <p class="command"><em>git merge --no-ff [branch]</em>: merge the target branch into the current branch, always generate a merge commit (even if it was a fast-forward merge). This is useful for documenting all merges that occur in your repository.</p>
+              <p class="command"><em>Note:</em>
+                <ul>
+                  <li>All commands listed above merge the target branch into the current branch that you are working on.</li>
+                  <li>The current branch will be updated.</li>
+                  <li>The target branch is completely unaffected.</li>
+                  <li>Merge commands are often used with <i>git checkout</i> and <i>git branch -d</i></li>
+                  <li>There are two types of merge: fast-forward merge and 3-way merge.</li>
+                </ul>
+              </p>
+              <p><b>Fast Forward Merge:</b>
+              <ul>
+                <li>Occurs when there is no change applied to the parent branch eversince you created a new child branch from it and added changes to that child branch</li>
+                <li>Git combines the histories of the two branches, since all of the commits reachable from the target branch are now available through the current one.</li>
+              </ul>
+              </p>
+
+              <p><b>3-Way Merge:</b>
+                <ul>
+                  <li>You have to go through a 3-way merge when the branches have diverged.</li>
+                  <li>3-way merge uses three commits to generate the merge commit: one from the parent's tip, one from the child's tip and the third one is from the point right before the child started to grow.</li>
+                  <li>This resembles tying the two branches back together.</li>
+                </ul>
+              </p>
+
+              <p><b>Conflicts-The root of all the pains</b><br />
+                <ul>
+                  <li>This happens when the two branches have changes at the same part of a file.</li>
+                  <li>Git does not know which change should be kept and which change should be discarded.</li>
+                  <li>When this occurs, it stops right before the merge commit and you need to resolve the conflicts manually.</li>
+                  <li>Running <i>git status</i> will tell you which file(s) resulted in conflicts</li>
+                  <li>After resolving the conflicts and ready to continue merging, calling <i>git add</i> will tell Git that the conflicts have been resolved.</li>
+                  <li>Run <i>git commit</i> will then generate the merge commit.</li>
+                </ul>
+              </p>
+          </div>
+
+
+          <!--User Interactive Part-->
+          <!--No interactive part as conflicts are hard to simulate-->
+
+        </div> <!--Ends module 3-->
+
+          <!--****************************-->
+          <!--Module 4 Git Merge ends here-->
+          <!--****************************-->
         </div> <!--Ends Modules  Div-->
       </div> <!--Ends Scroll  Div-->
     </div> <!--Ends Content  Div-->
 </div> <!--Ends Wrapper  Div-->
-<script type="text/javascript" src="js/status.js"></script>
 <script src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/status.js"></script>
 <script src="js/branch.js" type="text/javascript"></script>
 </body>
 </html>

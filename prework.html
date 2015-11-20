@@ -2,46 +2,113 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/g2.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel='stylesheet' type='text/css'>
-  <link href="/Users/alexanderson/andalexrepos/gitSquared/assets/github_vector_icons/octicons.css" rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  <title>gitSquared</title>
+  <link href="assets/github_vector_icons/octicons.css" rel='stylesheet' type='text/css'>
+  <link rel="icon" href="assets/images/git2favicon.svg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+
 </head>
-<div id="wrapper">
-  <div id="navigation">
+<body>
 
-  <div id="branch_animate">
-  <object id="branching-multi" type="image/svg+xml" data="svg/branch-master.svg"></object>
-  </div>
+  <div id="wrapper">
+    <div id="navigation_wrap">
+      <div id="siteNav">
+        <div id="siteNavItems">
+          <a href="about.html" class="intraLink" id="about">about</a>
 
-        <div id="siteNav">
-          <div id="about">
-            <a href="about.html" class="intraLink" id="about">about</a>
-            </div>
-        <div id="prework">
-          <a href="prework.html" class="intraLink" id="prework">prework</a>
-          </div>
-        </div>
-        <div id="prework">
-  <a href="index.html" class="intraLink" id="prework">lesson 1</a>
+          <a href="prework.html"class="intraLink" id="prework">prework</a>
+          <a href="index.html" class="intraLink" id="index">lesson 1</a>
+          <a href="lessonTwo.html" class="intraLink" id="lesson2">lesson 2</a>
+          <a href="lessonThree.html" class="intraLink" id="lesson3">lesson 3</a>
         </div>
 
-        <div id="prework">
-  <a href="lessonTwo.html" class="intraLink" id="prework">lesson 2</a>
-        </div>
-
-        <div id="lessonNav">
-          <a href="index.html#module_1" class="intraLink">git clone</a>
-          <a href="index.html#module_2" class="intraLink">modify</a>
-          <a href="index.html#module_3" class="intraLink">git add</a>
-          <a href="index.html#module_4" class="intraLink">git commit</a>
-          <a href="index.html#module_5" class="intraLink">git push</a>
-        </div>
 
       </div>
+    </div>
+    <div id="content">
 
-  <div id="content">
+      <div class="scroll">
+        <div id="dynamic_header">
+          <div id=branch_animate>
+          <object id="branching-multi" type="image/svg+xml" data="svg/branch-master.svg"></object>
 
-    <div class="scroll">
-      <div id="prework_content"><p>Here we can fill in our content for prework/p></div>
+        </div>
+        </div>
+      <div id="module_1">
+            <!--****************************-->
+            <!--Module 1 Git remote starts here -->
+            <!--****************************-->
+            <div class="moduleTitle">Terminal Setup</div>
+
+            <div class="module_content"><p> Welcome to coding things!  Here you will get your computer set up to learn the wonderful world of GitHub!
+
+            <br>
+            <br>
+            First things first. Go to your spotlight search and look for "terminal". Open it up, and you should see something like this appear:</p>
+            <br>
+            <br>
+            <img id ="preworkTerminalPic"src="assets/images/terminal.png">
+            <br>
+            <br>
+            <p>
+            Play with settings as you like. Try a few commands like ls(list: shows all the files in the folder you're in), cd (change directory: goes to a new folder), or pwd (print working directory: shows where you are from the very root of your computer).
+            <br>
+            <br>
+            There is a lot to learn about terminal, but we won't get into it all here. Play around until you know how to change directories, and get back to where you started. We'll go into more detail later, as we need different commands for different steps.
+
+            </p> </div>
+          </div> <!--Ends Mod 1 Div-->
+
+          <!--****************************-->
+          <!--Module 1 Terminal -->
+          <!--****************************-->
+
+            <!--****************************-->
+            <!--Module 2 TextEdit starts here -->
+            <!--****************************-->
+
+            <div id="module_2">
+            <div class="moduleTitle">Get a text editor</div>
+
+            <div class="module_content">
+            <p> When writing code, we use text editors. There are several to choose from. We recommend either Sublime or Atom. Both are free to use, and have a host of useful features.
+            <br>
+            <br>
+            <a href="http://www.sublimetext.com/3">Sublime</a>
+            <br>
+            <a href="https://atom.io/">Atom</a>
+            <br>
+            <br>
+            You're in the home stretch now! Lets go get a GitHub account!
+
+            </p>
+            </div>
+          </div> <!--Ends Mod 2 Div-->
+
+          <!--****************************-->
+          <!--Module 2 TextEdit -->
+          <!--****************************-->
+          <!--****************************-->
+            <!--Module 3 Github starts here -->
+            <!--****************************-->
+
+            <div id="module_2">
+            <div class="moduleTitle">Make A GitHub Account</div>
+
+            <div class="module_content">
+            <p id="githubPreworkText"> Last step! Click on the cat below to go to GitHub!
+
+            <a href="https://github.com"><img id="gitHubCat" src="assets/images/gitHubCat.png"></a>
+
+            </p>
+            </div>
+          </div> <!--Ends Mod 3 Div-->
+
+          <!--****************************-->
+          <!--Module 3 Github Ends here -->
+          <!--****************************-->
+
       </div>
     </div>
   </div>

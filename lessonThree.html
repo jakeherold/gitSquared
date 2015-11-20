@@ -1,0 +1,135 @@
+<!-- Lesson Three -->
+<!-- Modules
++git remote
++git fetch
++git pull
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/g2.css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  <title>gitSquared</title>
+  <link href="assets/github_vector_icons/octicons.css" rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <div id="navigation_wrap">
+      <div id="siteNav">
+        <div id="siteNavItems">
+          <a href="about.html" class="intraLink" id="about">about</a>
+
+          <a href="prework.html"class="intraLink" id="prework">prework</a>
+          <a href="index.html" class="intraLink" id="index">lesson 1</a>
+          <a href="lessonTwo.html" class="intraLink" id="lesson2">lesson 2</a>
+          <a href="lessonThree.html" class="intraLink" id="lesson3">lesson 3</a>
+        </div>
+        <div id="lessonNav">
+          <a href="#module_1" class="intraLink">git remote</a>
+          <a href="#module_2" class="intraLink">git fetch</a>
+          <a href="#module_3" class="intraLink">git pull</a>
+        </div>
+
+
+      </div>
+    </div>
+
+  <div id="content">
+
+    <div class="scroll">
+
+      <div id="dynamic_header">Lesson Three</div>
+
+      <div class="modules">
+
+
+
+        <div id="module_1">
+            <!--****************************-->
+            <!--Module 1 Git remote starts here -->
+            <!--****************************-->
+            <div class="moduleTitle">Git Remote</div>
+            <!-- <div class="module">MODEL HERE</div> -->
+            <div class="module_content"><p> So, You've been working hard on your project. You decided that since you now have several working features that are version tracked, its time to team up with a buddy! The problem comes in the form of multiple repositories. You have one, she has one. How do we go about utilizing her repository? Well, we use the "remote" command.  The new command (seen below) will tell us which remote repositories we have access to.
+            <br>
+            <br>
+            "git remote"
+            <br>
+            <br>
+            We should see something like "origin" pop up. There are all manner of things that your terminal will report back. More important than the feedback, remote lets us access another person's repository...well...remotely. The remote repository is able to be seen and manipulated locally, but is held seperate from your local one. Please note that "remote" helps you find and add their repository, while git fetch lets you access it, and bring in it's code.
+            <br>
+            <br>
+            "git remote add [name] [url]"
+            <br>
+            <br>
+            In the above example, we have to give the "remote add" command two different parameters. [name] refers to the name of the remote branch you'd like to add. You get to pick this name, so we recommend that you make it something very clear where its coming from. [url] is simply the URL of the repository you want to remote into.
+
+            </p> </div>
+
+          </div> <!--Ends Mod 1 Div-->
+
+          <!--****************************-->
+          <!--Module 1 Git Remote ends here -->
+          <!--****************************-->
+
+
+          <!--******************************-->
+          <!--Module 2 Git Fetch starts here-->
+          <!--******************************-->
+          <div id="module_2">
+            <div class="moduleTitle">Git Fetch: Import Commits</div>
+            <div class="module_content">
+              <p class="command"><em>git fetch [remote]</em>: fetch all of the branches from the repository and download all of the required commits and files from the other repository.</p>
+              <p class="command"><em>git fetch [remote] [branch]</em>Same as the above command, but only fetch the specified branch.</p>
+
+            <ul>
+              <li>This command imports commits from a remote repository into your local repo.</li>
+              <li>Fetch content is represented as a remote branch and has no effect on your local developments.</li>
+              <li>This gives you a chance to review changes before integrating them into your copy of the project.</li>
+              <li>Remote branches represent commits from somebody else's repository.</li>
+              <li>To view your remote branches, call <i>git branch -r</i></li>
+              <li>You can inspect remote branches with <i>git checkout</i> and <i>git log</i>.</li>
+              <li>Once you approve the changes, you can merge it into a local branch with <i>git merge</i>.</li>
+            </ul>
+
+            </div>
+
+          <!-- <div class="module_vis_static">MODULE STATIC CONTENT HERE</div> -->
+
+          </div><!-- Ends module 2  -->
+          <div id="module_3">
+          <div class="moduleTitle">Git Pull</div>
+           <!-- <div class="module">MODEL HERE</div> -->
+           <div class="module_content"><p> We just touched base on the two commands, fetch and merge. Now that we understand how those two collaborate together we will have an easy transition into comprehending git pull...</p>
+           <p>Simply put a git pull request is a combination of both the fetch and merge commands. It functions as one single command but adresses both the fetch and merge commands and their process (Isn't that great, you only need one single command!).</p>
+           <ul>
+             <li>Before:
+            <br> git fetch "+" git merge</li>
+             <li>Now:
+            <br> git pull</li>
+          </ul>
+          <div class="feedbackBox">
+            <p id="L3GotIt"></p>
+          </div>
+            <div id="LessonThreeModuleOneButtons">
+             <button  onclick="pullObject.solidJob()"> I got it!</button>
+             <button  onclick="pullObject.reread()"> I don't got it!</button>
+           </div>
+
+
+          </div>
+          </div>
+        </div> <!--Ends Modules  Div-->
+      </div> <!--Ends Scroll  Div-->
+    </div> <!--Ends Content  Div-->
+</div> <!--Ends Wrapper  Div-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/pull.js"></script>
+<script type="text/javascript" src="js/status.js"></script>
+</body>
+</html>
