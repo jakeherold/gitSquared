@@ -7,12 +7,13 @@
     src: url(fonts/Lumber.ttf);
 }
 * {
-  margin: 0;
   padding: 0;
   font-family: Ubuntu Mono, monospace;
 }
 html, body {
-    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
     height: 100%;
 }
 p{
@@ -45,50 +46,73 @@ a:active {
   margin: 0 auto;
   margin: .25em;
 }
+
 #branching-multi {
   width: 400px;
   height: 100px;
 }
 
-#navigation {
+#navigation_wrap {
+  margin-top: 0;
   text-align: center;
-  border-bottom: 1px #52656B solid;
+  background: #52656B;
 }
 #siteNav {
     display: inline-block;
-    text-align: center;
-    padding-bottom: .5em;
-    height: 100%;
+    height: 2em;
     font-size: 1em;
 
 }
+#siteNavItems {
+  margin-top: 10px;
+  display: inline-block;
+  height: 100%;
+  color: #FFFFFF;
+  letter-spacing: .5em;
+}
+/*topcolors*/
+#about {
+  border-top: 6px solid #FF3B77;
+}
+#prework {
+  border-top: 6px solid #CDFF00;
+}
+#index {
+  border-top: 6px solid #FFFFFF;
+}
+#lesson2 {
+  border-top: 6px solid #B8B89F;
+}
+/****/
+#siteNavItems > a {
+  display: inline-block;
+  margin-top: 0;
+  padding: 10px;
+}
+#siteNavItems > a, #lessonNav > a {
+  color: #FFFFFF;
+}
+#siteNavItems > a:hover, #lessonNav > a:hover {
+  color: #FF3B77;
+}
+
 #lessonNav {
     padding: .5em;
     font-size: 1.5em;
     padding-left: 1em;
 }
-#about, #prework {
-  display: inline-block;
-  margin-top: 0;
-  background: #52656B;
-  color: #FFFFFF;
-  letter-spacing: .5em;
-}
-#about:hover, #prework:hover {
-  background-color: #FF3B77;
-}
-
-#about:active, #prework:active {
-  color: #7F1D3B;
+#lessonNav > a {
+display: inline-block;
+padding: .5em;
+border: 2px solid white;
 }
 .intraLink {
-  padding: .5em;
-  height: 100%;
   font-family:'Lumber','Fabfelt';
 }
+/****/
+
 div#dynamic_header {
 height: 50px;
-background: #f9f9f9;
 font-size: 2em;
 text-align: center;
 height: 1em;
@@ -161,6 +185,7 @@ display: inline;
 background-color: #ffffff;
 width: 100%;
 height: 90%;
+padding: 20px;
 }
 
 #moduleOnePicture {
@@ -199,6 +224,10 @@ height: 90%;
   display: none;
 }
 #modThreeUI{
+  text-align: center;
+}
+
+#modOnePicDiv{
   text-align: center;
 }
 
@@ -253,6 +282,7 @@ height: 300px;
   border: solid 1px silver;
   border-radius: 10px;
   display: block;
+  overflow: scroll;
 }
 input{
   width:200px;
@@ -292,4 +322,10 @@ text-align:left;
  margin: 1.25em;
 
 
+}
+/******************/
+/*   Lesson Two  */
+/****************/
+#module_1, #module_2, #module_3, #module_4{
+  padding: 20px;
 }

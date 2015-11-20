@@ -20,65 +20,47 @@
 
 </head>
 <body>
-<div id="wrapper">
 
-<div id="navigation">
-
-<div id="branch_animate">
-<object id="branching-multi" type="image/svg+xml" data="svg/branch-master.svg"></object>
-</div>
-
-
+  <div id="wrapper">
+    <div id="navigation_wrap">
       <div id="siteNav">
-        <div id="about">
+        <div id="siteNavItems">
           <a href="about.html" class="intraLink" id="about">about</a>
 
-          </div>
-      <div id="prework">
-        <a href="prework.html" class="intraLink" id="prework">prework</a>
-
+          <a href="prework.html"class="intraLink" id="prework">prework</a>
+          <a href="index.html" class="intraLink" id="index">lesson 1</a>
+          <a href="lessonTwo.html" class="intraLink" id="lesson2">lesson 2</a>
         </div>
-      <div id="prework">
-<a href="index.html" class="intraLink" id="prework">lesson 1</a>
+        <div id="lessonNav">
+          <a href="#module_1" class="intraLink">git clone</a>
+          <a href="#module_2" class="intraLink">modify</a>
+          <a href="#module_3" class="intraLink">git add</a>
+          <a href="#module_4" class="intraLink">git commit</a>
+          <a href="#module_5" class="intraLink">git push</a>
+        </div>
+
+
       </div>
-
-      <div id="prework">
-<a href="lessonTwo.html" class="intraLink" id="prework">lesson 2</a>
-      </div>
-
-      <div id="lessonNav">
-        <a href="#module_1" class="intraLink">git clone</a>
-        <a href="#module_2" class="intraLink">modify</a>
-        <a href="#module_3" class="intraLink">git add</a>
-        <a href="#module_4" class="intraLink">git commit</a>
-        <a href="#module_5" class="intraLink">git push</a>
-        <a href="lessonTwo.html" class="intraLink">lesson two</a>
-        <a href="lessonThree.html" class="intraLink">lesson three</a>
-      </div>
-</div>
-
-
     </div>
-
-
     <div id="content">
 
       <div class="scroll">
+        <div id="dynamic_header">
+          <div id=branch_animate>
+          <object id="branching-multi" type="image/svg+xml" data="svg/branch-master.svg"></object>
 
-      <div id="dynamic_header">Lesson One</div>
-
-
-      <!--<p id="logo">git<sup id="superTwo">2</sup></p> <br> <p id="logoSubscript">get git.</p>-->
-        <!--MOD1-->
-
-        <div class="module" id="module_1">
-        <div class="moduleTitle">Git Clone</div>
-        <div class="moduleOneContent"><p>Welcome to gitSquared! Git is an incredible tool for programers. It will help you collaborate with your fellow programmer types, and never lose a single line of code! However, it can be tedious and difficult to learn We're here to make it easier on you. The first step in doing this is cloning your repository.<br> First things first, use your terminal to navigate to the folder you'd like your repository folder to live in. Your second step is to go to your repository (repo) on Git Hub and copy the URL of the repository you want to use. Finally, go into your terminal and type <br><br> <em>git clone [your URL here]</em> <br><br>in your terminal. You should see a new folder with your README.md file in it. You now have a local repo on your computer! </p> </div>
-        <br>
-        <div id="graphicInterfaceModOne">
-          <img src="" id="moduleOnePicture">
         </div>
-        <div id="moduleOneOutput">
+
+        </div>
+        <!--MOD1-->
+        <div class="module" id="module_1">
+          <div class="moduleTitle">Git clone</div>
+          <div class="moduleOneContent"><p>Welcome to gitSquared! Git is an incredible tool for programers. It will help you collaborate with your fellow programmer types, and never lose a single line of code! However, it can be tedious and difficult to learn We're here to make it easier on you. The first step in doing this is cloning your repository.<br> First things first, use your terminal to navigate to the folder you'd like your repository folder to live in. Your second step is to go to your repository (repo) on Git Hub and copy the URL of the repository you want to use. Finally, go into your terminal and type <br><br> "git clone [your URL here]" <br><br>in your terminal. You should see a new folder with your README.md file in it. You now have a local repo on your computer! </p> </div>
+          <br>
+          <div id="graphicInterfaceModOne">
+            <img src="" id="moduleOnePicture">
+          </div>
+          <div id="moduleOneOutput">
           <p>
             You behold your desktop. What do you do?
           </p>
@@ -90,8 +72,8 @@
           <button class="moduleOneButtons" onclick="cloneMethods.navigateTerminal()">Select Local Repo Location</button>
           <button class="moduleOneButtons" onclick="cloneMethods.enterGitCloneCommand()">Enter "git clone" command</button>
           <button class="moduleOneButtons" onclick="cloneMethods.reset()">Start Over</button>
-        </div>
-        </div>
+          </div>
+          </div>
         <!--MOD1-END-->
 
         <!--MOD2-->

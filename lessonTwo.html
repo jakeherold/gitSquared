@@ -12,50 +12,42 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel='stylesheet' type='text/css'>
   <title>gitSquared</title>
   <link href="assets/github_vector_icons/octicons.css" rel='stylesheet' type='text/css'>
-</head>
+  <link rel="icon" href="assets/images/git2favicon.svg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 
+</head>
 <body>
 
-<div id="wrapper">
-<div id="navigation">
+  <div id="wrapper">
+    <div id="navigation_wrap">
+      <div id="siteNav">
+        <div id="siteNavItems">
+          <a href="about.html" class="intraLink" id="about">about</a>
 
-  <div id="branch_animate">
-  <object id="branching-multi" type="image/svg+xml" data="svg/branch-master.svg"></object>
-  </div>
+          <a href="prework.html"class="intraLink" id="prework">prework</a>
+          <a href="index.html" class="intraLink" id="index">lesson 1</a>
+          <a href="lessonTwo.html" class="intraLink" id="lesson2">lesson 2</a>
+        </div>
+        <div id="lessonNav">
+          <a href="#module_1" class="intraLink">git clone</a>
+          <a href="#module_2" class="intraLink">modify</a>
+          <a href="#module_3" class="intraLink">git add</a>
+          <a href="#module_4" class="intraLink">git commit</a>
+          <a href="#module_5" class="intraLink">git push</a>
+        </div>
 
-  <div id="siteNav">
-    <div id="about">
-      <a href="about.html" class="intraLink" id="about">about</a>
+
       </div>
-  <div id="prework">
-    <a href="prework.html" class="intraLink" id="prework">prework</a>
     </div>
-  <div id="prework">
-<a href="index.html" class="intraLink" id="prework">lesson 1</a>
-  </div>
+    <div id="content">
 
+      <div class="scroll">
+        <div id="dynamic_header">
+          <div id=branch_animate>
+          <object id="branching-multi" type="image/svg+xml" data="svg/branch-master.svg"></object>
 
-  <div id="prework">
-<a href="lessonTwo.html" class="intraLink" id="prework">lesson 2</a>
-  </div>
-
-
-  <div id="lessonNav">
-    <a href="#module_1" class="intraLink">git status</a>
-    <a href="#module_2" class="intraLink">git branch</a>
-    <a href="#module_3" class="intraLink">git checkout</a>
-  </div>
-
-</div>
-</div>
-  <div id="content">
-
-    <div class="scroll">
-
-
-      <div id="dynamic_header">Lesson Two</div>
-
-      <div class="modules">
+        </div>
+        </div>
 
 
 
@@ -92,10 +84,10 @@
           <!--****************************-->
           <!--Module 2 Git Branch starts here-->
           <!--****************************-->
-          <div id="module_3">
+          <div id="module_2">
             <div class="moduleTitle">Git Branch: An Independent Line</div>
             <div class="module_content">
-              <div class="commandDiv">
+              <div class="commandDiv" id="CommandDiv">
                 <p class="command"><em>git branch</em>: list all the branches in your
                 repository</p>
                 <p class="command"><em>git checkout -b [new branch name]</em>: create a new
@@ -248,8 +240,8 @@
       </div> <!--Ends Scroll  Div-->
     </div> <!--Ends Content  Div-->
 </div> <!--Ends Wrapper  Div-->
-<script type="text/javascript" src="js/status.js"></script>
 <script src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/status.js"></script>
 <script src="js/branch.js" type="text/javascript"></script>
 </body>
 </html>

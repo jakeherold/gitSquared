@@ -23,7 +23,7 @@ function gitCommit(){
 }
 
 function commitHint(){
-  $("#sorryCommmit").css({"display": "none"});
+  $("#sorryCommit").css({"display": "none"});
   $("#correctCommit").css({"display": "none"});
   $("#commitHint").css({"display": "block"});
 }
