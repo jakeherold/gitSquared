@@ -313,6 +313,9 @@ input{
 #about_content{
 display: inline;
 text-align:left;
+padding: 1em;
+margin:1em;
+margin-left: 1em;
 }
 
 
