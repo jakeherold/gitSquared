@@ -50,6 +50,7 @@
           <object id="branching-multi" type="image/svg+xml" data="svg/branch-master.svg"></object>
 
         </div>
+
         </div>
         <!--MOD1-->
         <div class="module" id="module_1">
@@ -60,21 +61,19 @@
             <img src="" id="moduleOnePicture">
           </div>
           <div id="moduleOneOutput">
-            <p>
-              <br>
-              You behold your desktop. What do you do?
-              <br>
-            </p>
-          </div>
-          <div id="moduleOneButtonDiv">
-            <button class="moduleOneButtons" onclick="openTerminal()">Open Terminal</button>
-            <button class="moduleOneButtons" onclick="openGitHub()">Open GitHub</button>
-            <button class="moduleOneButtons" onclick="copyURL()">Copy URL</button>
-            <button class="moduleOneButtons" onclick="navigateTerminal()">Select Local Repo Location</button>
-            <button class="moduleOneButtons" onclick="enterGitCloneCommand()">Enter "git clone" command</button>
-            <button class="moduleOneButtons" onclick="reset()">Start Over</button>
-          </div>
+          <p>
+            You behold your desktop. What do you do?
+          </p>
         </div>
+        <div id="moduleOneButtonDiv">
+          <button class="moduleOneButtons" onclick="cloneMethods.openTerminal()">Open Terminal</button>
+          <button class="moduleOneButtons" onclick="cloneMethods.openGitHub()">Open GitHub</button>
+          <button class="moduleOneButtons" onclick="cloneMethods.copyURL()">Copy URL</button>
+          <button class="moduleOneButtons" onclick="cloneMethods.navigateTerminal()">Select Local Repo Location</button>
+          <button class="moduleOneButtons" onclick="cloneMethods.enterGitCloneCommand()">Enter "git clone" command</button>
+          <button class="moduleOneButtons" onclick="cloneMethods.reset()">Start Over</button>
+          </div>
+          </div>
         <!--MOD1-END-->
 
         <!--MOD2-->
@@ -186,8 +185,8 @@
                         <div class="moduleUI">
                           <p>Please type the correct git push command</p>
                           <input class="lesson_input" id="lesson_4_input" type="text"></input>
-                          <button onclick="pushMod()" class="lesson_button" id="lesson_4_button">enter git command</button>
-                          <button onclick="pushHint ()" class="lesson_button" id="lesson_4_hint">hint?</button>
+                          <button onclick="pushObject.pushMod()" class="lesson_button" id="lesson_4_button">enter git command</button>
+                          <button onclick="pushObject.pushHint ()" class="lesson_button" id="lesson_4_hint">hint?</button>
 
                         </div>
                       </div>
