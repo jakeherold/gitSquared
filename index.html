@@ -80,10 +80,7 @@
         </div>
         <div id="moduleOneOutput">
           <p>
-
-            <br>
             You behold your desktop. What do you do?
-            <br>
           </p>
         </div>
         <div id="moduleOneButtonDiv">
@@ -133,18 +130,16 @@
                     (and still keep the local changes in the file).</li>
                   </ul>
                 </div>
-                <div class="module_vis_dynamic" id="gitAddOutput">
-                  <img src="">
-                  <img src="">
-                  <img src="">
-                </div>
+
                 <div class="feedback">
                   <p id="intro">Assusming that you have made some changes to your TestFile.txt and you are happy
                     with them. Now we'll add the file to the "Staging area". Please type the correct command that you
                     would type in your terminal in the input field.</p>
-                    <p id="correct">Correct!</p>
-                    <p id="sorry">Sorry, that was not correct. Click on the hint button if you need a hint.</p>
-                    <p id="addHint">Hint: git add [your file here]</p>
+                    <div class="feedbackBox">
+                      <p id="correct">Correct!</p>
+                      <p id="sorry">Sorry, that was not correct. Click on the hint button if you need a hint.</p>
+                      <p id="addHint">Hint: git add [your file here]</p>
+                    </div>
                   </div>
 
                   <div class="moduleUI">
@@ -173,10 +168,12 @@
                       <p id="introCommit">Now assume that you aleady have done git add for your testFile.txt.
                         We need to do git commit so that Git will protect the snapshots that we have staged.
                         Please type the correct command that you would type in your terminal in the input field.</p>
-                        <p id="correctCommit">Correct!</p>
-                        <p id="sorryCommit">Sorry, that was not correct. Make sure that you did not leave your description
-                          message empty. Click on the hint button if you need a hint.</p>
+                        <div class="feedbackBox">
+                          <p id="correctCommit">Correct!</p>
+                          <p id="sorryCommit">Sorry, that was not correct. Make sure that you did not leave your description
+                            message empty. Click on the hint button if you need a hint.</p>
                           <p id="commitHint">Hint: git commit -m "[Your detail description here]"</p>
+                        </div>
                         </div>
                         <div class="moduleUI">
                           <input class="lesson_input" id="gitCommitInput">git command</input>
@@ -200,11 +197,14 @@
                             <strong>and</strong> remote repository are identical. Lets try it below:
                           </p>
                         </div>
+                        <div class="feedbackBox">
+                            <p id="modOutput"></p>
+                          </div>
                         <div class="moduleUI">
                           <input class="lesson_input" id="lesson_4_input" type="text">Please type the correct git push command</input>
                           <button onclick="pushMod()" class="lesson_button" id="lesson_4_button">enter git command</button>
                           <button onclick="pushHint ()" class="lesson_button" id="lesson_4_hint">hint?</button>
-                          <p id="modOutput"></p>
+
                         </div>
                       </div>
                     </div> <!--ID=SCROLL-->
