@@ -8,148 +8,97 @@
 		c0-2.788,2.27-5.058,5.057-5.058h19.787"/>
 	<circle id="circ1" fill="none" stroke="#000000" stroke-miterlimit="10" cx="43.783" cy="9.591" r="2.591"/>
 	<circle id="circ2" fill="none" stroke="#000000" stroke-miterlimit="10" cx="55.625" cy="9.591" r="2.591"/>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M67.997,24.763c0-2.788-2.271-5.057-5.057-5.057 M67.997,24.763
-		c0,2.788,2.269,5.058,5.057,5.058H92.84"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M67.997,24.764c0-2.789-2.271-5.058-5.058-5.058 M67.997,24.764
+		c0,2.787,2.269,5.057,5.058,5.057H92.84"/>
 	<circle id="circ3" fill="none" stroke="#000000" stroke-miterlimit="10" cx="78.396" cy="29.821" r="2.59"/>
-	<circle id="circ4"  fill="none" stroke="#000000" stroke-miterlimit="10" cx="90.237" cy="29.821" r="2.59"/>
+	<circle id="circ4" fill="none" stroke="#000000" stroke-miterlimit="10" cx="90.236" cy="29.821" r="2.59"/>
 	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M7.344,19.706h68.461"/>
 	<circle id="circ6" fill="none" stroke="#000000" stroke-miterlimit="10" cx="9.934" cy="19.706" r="2.59"/>
 	<circle id="circ7" fill="none" stroke="#000000" stroke-miterlimit="10" cx="21.776" cy="19.706" r="2.59"/>
-	<circle id="circ8"  fill="none" stroke="#000000" stroke-miterlimit="10" cx="43.66" cy="19.706" r="2.59"/>
+	<circle id="circ8" fill="none" stroke="#000000" stroke-miterlimit="10" cx="43.66" cy="19.706" r="2.59"/>
 	<circle id="circ9" fill="none" stroke="#000000" stroke-miterlimit="10" cx="55.625" cy="19.706" r="2.59"/>
-	<circle  id="circ10" fill="none" stroke="#000000" stroke-miterlimit="10" cx="78.396" cy="19.706" r="2.59"/>
+	<circle id="circ10" fill="none" stroke="#000000" stroke-miterlimit="10" cx="78.396" cy="19.706" r="2.59"/>
 </g>
-<style type="text/css">
-circle#circ6 {
-			animation-name: colorshift;
-			animation-duration: 1s;
-			animation-timing-function: ease-in-out;
-			animation-iteration-count: infinite;
-			display: inline-block;
-	}
-	@keyframes colorshift {
-	0% { fill: #FFFFFF; }
-	25% { fill: #CDFF00; }
-	50% { fill: #CDFF00; }
-	100% { fill: #FFFFFF; }
-	}
-	circle#circ7 {
-				animation-name: colorshift;
-				animation-duration: 1s;
-				animation-timing-function: ease-in-out;
-				animation-iteration-count: infinite;
-				display: inline-block;
-		}
-		@keyframes colorshift {
-		0% { fill: #FFFFFF; }
-		25% { fill: #CDFF00; }
-		50% { fill: #CDFF00; }
-		100% { fill: #FFFFFF; }
-		}
-		circle#circ1 {
-					animation-name: colorshift;
-					animation-duration: 1s;
-					animation-timing-function: ease-in-out;
-					animation-iteration-count: infinite;
-					display: inline-block;
-			}
-			@keyframes colorshift {
-			0% { fill: #FFFFFF; }
-			25% { fill: #CDFF00; }
-			50% { fill: #CDFF00; }
-			100% { fill: #FFFFFF; }
-			}
-			circle#circ6 {
-						animation-name: colorshift;
-						animation-duration: 1s;
-						animation-timing-function: ease-in-out;
-						animation-iteration-count: infinite;
-						display: inline-block;
-				}
-				@keyframes colorshift {
-				0% { fill: #FFFFFF; }
-				25% { fill: #CDFF00; }
-				50% { fill: #CDFF00; }
-				100% { fill: #FFFFFF; }
-				}
-				circle#circ8 {
-							animation-name: colorshift;
-							animation-duration: 1s;
-							animation-timing-function: ease-in-out;
-							animation-iteration-count: infinite;
-							display: inline-block;
-					}
-					@keyframes colorshift {
-					0% { fill: #FFFFFF; }
-					25% { fill: #CDFF00; }
-					50% { fill: #CDFF00; }
-					100% { fill: #FFFFFF; }
-					}
-					circle#circ2 {
-								animation-name: colorshift;
-								animation-duration: 1s;
-								animation-timing-function: ease-in-out;
-								animation-iteration-count: infinite;
-								display: inline-block;
-						}
-						@keyframes colorshift {
-						0% { fill: #FFFFFF; }
-						25% { fill: #CDFF00; }
-						50% { fill: #CDFF00; }
-						100% { fill: #FFFFFF; }
-						}
-					circle#circ9 {
-								animation-name: colorshift;
-								animation-duration: 1s;
-								animation-timing-function: ease-in-out;
-								animation-iteration-count: infinite;
-								display: inline-block;
-						}
-						@keyframes colorshift {
-						0% { fill: #FFFFFF; }
-						25% { fill: #CDFF00; }
-						50% { fill: #CDFF00; }
-						100% { fill: #FFFFFF; }
-						}
-						circle#circ10 {
-									animation-name: colorshift;
-									animation-duration: 1s;
-									animation-timing-function: ease-in-out;
-									animation-iteration-count: infinite;
-									display: inline-block;
-							}
-							@keyframes colorshift {
-							0% { fill: #FFFFFF; }
-							25% { fill: #CDFF00; }
-							50% { fill: #CDFF00; }
-							100% { fill: #FFFFFF; }
-							}
-						circle#circ3 {
-									animation-name: colorshift;
-									animation-duration: 1s;
-									animation-timing-function: ease-in-out;
-									animation-iteration-count: infinite;
-									display: inline-block;
-							}
-							@keyframes colorshift {
-							0% { fill: #FFFFFF; }
-							25% { fill: #CDFF00; }
-							50% { fill: #CDFF00; }
-							100% { fill: #FFFFFF; }
-							}
-							circle#circ4 {
-										animation-name: colorshift;
-										animation-duration: 1s;
-										animation-timing-function: ease-in-out;
-										animation-iteration-count: infinite;
-										display: inline-block;
-								}
-								@keyframes colorshift {
-								0% { fill: #FFFFFF; }
-								25% { fill: #CDFF00; }
-								50% { fill: #CDFF00; }
-								100% { fill: #FFFFFF; }
-								}
+<path stroke="#000000" stroke-miterlimit="10" d="M44.543,37.429c-0.469,0.168-1.391,0.443-2.482,0.443
+	c-1.225,0-2.23-0.312-3.023-1.067c-0.695-0.672-1.127-1.751-1.127-3.011c0.012-2.41,1.668-4.173,4.377-4.173
+	c0.936,0,1.668,0.203,2.016,0.371l-0.252,0.852c-0.432-0.191-0.971-0.348-1.787-0.348c-1.967,0-3.25,1.224-3.25,3.25
+	c0,2.051,1.234,3.263,3.119,3.263c0.684,0,1.15-0.097,1.391-0.216v-2.411h-1.643v-0.84h2.662V37.429z"/>
+<path stroke="#000000" stroke-miterlimit="10" d="M50.5,29.358c0.012,0.359-0.251,0.647-0.671,0.647
+	c-0.371,0-0.635-0.288-0.635-0.647c0-0.372,0.275-0.66,0.658-0.66C50.249,28.698,50.5,28.986,50.5,29.358z M49.325,37.794v-5.805
+	h1.057v5.805H49.325z"/>
+<path stroke="#000000" stroke-miterlimit="10" d="M57.045,30.202v1.667h1.512v0.804h-1.512v3.13c0,0.72,0.205,1.128,0.791,1.128
+	c0.277,0,0.48-0.036,0.613-0.072l0.047,0.791c-0.203,0.084-0.527,0.145-0.936,0.145c-0.492,0-0.887-0.156-1.139-0.444
+	c-0.301-0.312-0.408-0.827-0.408-1.511v-3.166h-0.898v-0.804h0.898v-1.392L57.045,30.202z"/>
+<path stroke="#000000" stroke-miterlimit="10" d="M61.026,33.097v-0.398l0.51-0.494c1.224-1.165,1.777-1.785,1.785-2.508
+	c0-0.487-0.236-0.937-0.951-0.937c-0.436,0-0.797,0.221-1.018,0.405l-0.207-0.457c0.332-0.28,0.803-0.487,1.355-0.487
+	c1.033,0,1.469,0.708,1.469,1.395c0,0.885-0.642,1.601-1.652,2.574l-0.383,0.354v0.014h2.154v0.539H61.026z"/>
+	<style type="text/css">
+		circle#circ6{
+		    animation-name: colorshift;
+		    animation-duration: .1s;
+		    animation-iteration-count: 1;
+				animation-fill-mode: forwards;
 
-</style>
+		}
+				circle#circ7{
+				    animation-name: colorshift;
+				    animation-duration: .1s;
+						animation-delay: .1s;
+				    animation-iteration-count: 1;
+						animation-fill-mode: forwards;
+				}
+						circle#circ1{
+						    animation-name: colorshift;
+						    animation-duration: .1s;
+								animation-delay: .2s;
+						    animation-iteration-count: 1;
+								animation-fill-mode: forwards;
+						}
+								circle#circ2{
+										animation-name: colorshift;
+										animation-duration: .1s;
+										animation-delay: .4s;
+										animation-iteration-count: 1;
+										animation-fill-mode: forwards;
+								}
+										circle#circ8{
+												animation-name: colorshift;
+												animation-duration: .1s;
+												animation-delay: .4s;
+												animation-iteration-count: 1;
+												animation-fill-mode: forwards;
+										}
+										circle#circ9{
+												animation-name: colorshift;
+												animation-duration: .1s;
+												animation-delay: .6s;
+												animation-iteration-count: 1;
+												animation-fill-mode: forwards;
+										}
+										circle#circ10{
+												animation-name: colorshift;
+												animation-duration: .1s;
+												animation-delay: .8s;
+												animation-iteration-count: 1;
+												animation-fill-mode: forwards;
+										}
+										circle#circ3{
+												animation-name: colorshift;
+												animation-duration: .1s;
+												animation-delay: 1s;
+												animation-iteration-count: 1;
+												animation-fill-mode: forwards;
+										}
+										circle#circ4{
+												animation-name: colorshift;
+												animation-duration: .1s;
+												animation-delay: 1.2s;
+												animation-iteration-count: 1;
+												animation-fill-mode: forwards;
+										}
+										@keyframes colorshift {
+												0% { fill: #ffffff }
+												100% { fill: #CDFF00 }
+												}
+	</style>
 </svg>
