@@ -224,3 +224,21 @@ height: 300px;
 #githubPreworkText{
   text-align: center;
 }
+
+/******************/
+/*VIDEO  STUFF   */
+/****************/
+
+#vidDiv{
+ /*text-align: center;*/
+ float: left;
+ margin: 1.25em;
+
+}
+#aboutVid{
+  width: 25%;
+}
+#about_content{
+display: inline;
+
+}
