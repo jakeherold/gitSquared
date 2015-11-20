@@ -161,6 +161,7 @@ display: inline;
 background-color: #ffffff;
 width: 100%;
 height: 90%;
+padding: 20px;
 }
 
 #moduleOnePicture {
@@ -252,6 +253,7 @@ height: 300px;
   border: solid 1px silver;
   border-radius: 10px;
   display: block;
+  overflow: scroll;
 }
 input{
   width:200px;
