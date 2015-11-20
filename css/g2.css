@@ -12,7 +12,7 @@
   font-family: Ubuntu Mono, monospace;
 }
 html, body {
-    font-size: 1.25em;
+    font-size: 1em;
     height: 100%;
 }
 p{
@@ -58,7 +58,7 @@ a:active {
     display: inline-block;
     text-align: center;
     padding-bottom: .5em;
-    height: 100%;;
+    height: 100%;
     font-size: 1em;
 
 }
@@ -165,8 +165,8 @@ height: 90%;
 
 #moduleOnePicture {
   width: 50%;
-
-  float:right;
+  margin: 10px auto;
+  /*float:right;*/
 }
 #moduleOneContent{
   display: inline;
@@ -174,11 +174,12 @@ height: 90%;
 }
 #graphicInterfaceModOne{
   display: block;
+  text-align: center;
 }
 #moduleOneOutput{
   text-align: center;
-  padding-top: .2em;
-  padding-bottom: .2em;
+  /*padding-top: .2em;
+  padding-bottom: .2em;*/
 }
 
 .moduleOneButtons{
@@ -234,5 +235,32 @@ height: 300px;
 }
 
 #githubPreworkText{
+  text-align: center;
+}
+
+/*********************/
+/*   Feedback Box   */
+/*******************/
+
+/*Lesson 1*/
+#moduleOneOutput, .feedbackBox{
+  background-color: pink;
+  margin: 10px auto;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  border: solid 1px silver;
+  border-radius: 10px;
+  display: block;
+}
+/*Lesson2*/
+.illustration{
+  width: 40%;
+  margin: 10px auto;
+}
+.Mod2Buttons{
+  text-align: center;
+}
+#LessonTwoModuleOneButtons{
   text-align: center;
 }
