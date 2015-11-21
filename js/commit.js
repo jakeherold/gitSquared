@@ -9,7 +9,7 @@ function gitCommit(){
   var $msg = $userInput.substring(15, $userInput.length-1).split();
   console.log("$msg is: "+$msg);
 
-  if (isNaN($userInput)===true && $msg[0].length > 3 && $Input=="git commit -m"){
+  if (isNaN($userInput)===true && $msg[0].length > 3 && $Input=="git commit -m" && $userInput[$userInput.length-1]==='"'){
     $correct.css({"display": "block"});
     $sorry.css({"display": "none"});
     $hint.css({"display": "none"});

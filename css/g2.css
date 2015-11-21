@@ -293,6 +293,8 @@ height: 300px;
 
 /*Lesson 1*/
 #moduleOneOutput, .feedbackBox{
+  font-size: 15px;
+  padding-bottom: 3px;
   background-color: pink;
   margin: 10px auto;
   width: 50%;
@@ -303,10 +305,6 @@ height: 300px;
   display: block;
   overflow: scroll;
   padding: 0;
-}
-.feedbackBox {
-  font-size: 15px;
-  padding-bottom: 3px;
 }
 #LessonThreeModuleOneButtons {
   text-align: center;
